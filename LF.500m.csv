@@ -1,0 +1,2097 @@
+FID,camera_id,Subcl_Veg,SUM_Shape_
+0,BC1024,"1.B Temperate & Boreal Forest & Woodland,Tree",143951.9209
+1,BC1024,"7.C Herbaceous & Woody Developed Vegetation,Herb",63140.24833
+2,BC1024,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7278.091395
+3,BC1024,"7.C Herbaceous & Woody Developed Vegetation,Tree",53984.05441
+4,BC1024,"Developed-High Intensity,Developed",14552.65144
+5,BC1024,"Developed-Low Intensity,Developed",254004.8441
+6,BC1024,"Developed-Medium Intensity,Developed",42455.26923
+7,BC1024,"Developed-Roads,Developed",193175.4061
+8,BC1046,"1.B Temperate & Boreal Forest & Woodland,Shrub",1255.682373
+9,BC1046,"1.B Temperate & Boreal Forest & Woodland,Tree",180466.8194
+10,BC1046,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+11,BC1046,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+12,BC1046,"2.C Shrub & Herb Wetland,Herb",119285.3478
+13,BC1046,"2.C Shrub & Herb Wetland,Shrub",900
+14,BC1046,"7.C Herbaceous & Woody Developed Vegetation,Herb",80491.38809
+15,BC1046,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12507.40389
+16,BC1046,"7.C Herbaceous & Woody Developed Vegetation,Tree",162569.6077
+17,BC1046,"Developed-High Intensity,Developed",922.3294434
+18,BC1046,"Developed-Low Intensity,Developed",126842.5634
+19,BC1046,"Developed-Medium Intensity,Developed",14314.88492
+20,BC1046,"Developed-Roads,Developed",70930.42255
+21,BC1046,"Open Water,Water",256.0363179
+22,BC1078,"1.B Temperate & Boreal Forest & Woodland,Shrub",1476.342773
+23,BC1078,"1.B Temperate & Boreal Forest & Woodland,Tree",24861.55634
+24,BC1078,"2.C Shrub & Herb Wetland,Herb",46940.04743
+25,BC1078,"2.C Shrub & Herb Wetland,Shrub",900
+26,BC1078,"7.B Herbaceous Agricultural Vegetation,Agriculture",3276.342774
+27,BC1078,"7.B Herbaceous Agricultural Vegetation,Herb",53910.34334
+28,BC1078,"7.C Herbaceous & Woody Developed Vegetation,Herb",70109.41852
+29,BC1078,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5976.342773
+30,BC1078,"7.C Herbaceous & Woody Developed Vegetation,Tree",193187.2731
+31,BC1078,"Developed-High Intensity,Developed",38003.4558
+32,BC1078,"Developed-Low Intensity,Developed",108644.4855
+33,BC1078,"Developed-Medium Intensity,Developed",148128.7941
+34,BC1078,"Developed-Roads,Developed",77128.0835
+35,BC1122,"1.B Temperate & Boreal Forest & Woodland,Tree",297071.4541
+36,BC1122,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+37,BC1122,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2245.110942
+38,BC1122,"2.C Shrub & Herb Wetland,Herb",1966.030793
+39,BC1122,"7.C Herbaceous & Woody Developed Vegetation,Herb",85084.15028
+40,BC1122,"7.C Herbaceous & Woody Developed Vegetation,Shrub",19247.44072
+41,BC1122,"7.C Herbaceous & Woody Developed Vegetation,Tree",208262.1907
+42,BC1122,"Developed-High Intensity,Developed",1255.682373
+43,BC1122,"Developed-Low Intensity,Developed",87906.50816
+44,BC1122,"Developed-Medium Intensity,Developed",18849.36262
+45,BC1122,"Developed-Roads,Developed",49754.55521
+46,BC1142,"1.B Temperate & Boreal Forest & Woodland,Tree",88256.14946
+47,BC1142,"7.C Herbaceous & Woody Developed Vegetation,Herb",75527.08553
+48,BC1142,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11784.38549
+49,BC1142,"7.C Herbaceous & Woody Developed Vegetation,Tree",90814.12709
+50,BC1142,"Developed-High Intensity,Developed",10174.14122
+51,BC1142,"Developed-Low Intensity,Developed",220113.2936
+52,BC1142,"Developed-Medium Intensity,Developed",84394.9383
+53,BC1142,"Developed-Roads,Developed",191478.3653
+54,BC1186,"1.B Temperate & Boreal Forest & Woodland,Tree",116921.9671
+55,BC1186,"7.C Herbaceous & Woody Developed Vegetation,Herb",80473.33259
+56,BC1186,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18073.48811
+57,BC1186,"7.C Herbaceous & Woody Developed Vegetation,Tree",147523.9493
+58,BC1186,"Developed-High Intensity,Developed",9000.204295
+59,BC1186,"Developed-Low Intensity,Developed",158317.0302
+60,BC1186,"Developed-Medium Intensity,Developed",59707.09026
+61,BC1186,"Developed-Roads,Developed",182525.424
+62,BE1004,"1.B Temperate & Boreal Forest & Woodland,Tree",612797.1047
+63,BE1004,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2938.373855
+64,BE1004,"7.C Herbaceous & Woody Developed Vegetation,Herb",8764.501426
+65,BE1004,"7.C Herbaceous & Woody Developed Vegetation,Tree",13065.21856
+66,BE1004,"Developed-Low Intensity,Developed",29828.89623
+67,BE1004,"Developed-Roads,Developed",35657.66085
+68,BE1004,"Open Water,Water",69490.73035
+69,BE1011,"1.B Temperate & Boreal Forest & Woodland,Tree",35204.31293
+70,BE1011,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2052.685547
+71,BE1011,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1255.737305
+72,BE1011,"7.C Herbaceous & Woody Developed Vegetation,Herb",125801.5278
+73,BE1011,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8.995423197
+74,BE1011,"7.C Herbaceous & Woody Developed Vegetation,Tree",257908.7106
+75,BE1011,"Developed-High Intensity,Developed",3842.163289
+76,BE1011,"Developed-Low Intensity,Developed",164404.686
+77,BE1011,"Developed-Medium Intensity,Developed",25203.09535
+78,BE1011,"Developed-Roads,Developed",156860.5717
+79,BE1015,"1.B Temperate & Boreal Forest & Woodland,Tree",503539.138
+80,BE1015,"2.B Temperate & Boreal Grassland & Shrubland,Herb",10380.26106
+81,BE1015,"7.B Herbaceous Agricultural Vegetation,Herb",65627.38733
+82,BE1015,"7.C Herbaceous & Woody Developed Vegetation,Herb",12630.70769
+83,BE1015,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1093.729194
+84,BE1015,"7.C Herbaceous & Woody Developed Vegetation,Tree",37703.25156
+85,BE1015,"Developed-Low Intensity,Developed",44055.00512
+86,BE1015,"Developed-Medium Intensity,Developed",900
+87,BE1015,"Developed-Roads,Developed",47012.77057
+88,BE1015,"Open Water,Water",49600.23546
+89,BE1020,"1.B Temperate & Boreal Forest & Woodland,Tree",286275.4935
+90,BE1020,"7.C Herbaceous & Woody Developed Vegetation,Herb",56385.38732
+91,BE1020,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17041.63875
+92,BE1020,"7.C Herbaceous & Woody Developed Vegetation,Tree",94555.02833
+93,BE1020,"Developed-High Intensity,Developed",15504.833
+94,BE1020,"Developed-Low Intensity,Developed",99501.55046
+95,BE1020,"Developed-Medium Intensity,Developed",73375.86648
+96,BE1020,"Developed-Roads,Developed",85563.40893
+97,BE1020,"Open Water,Water",44339.27919
+98,BE1031,"1.B Temperate & Boreal Forest & Woodland,Tree",620567.2011
+99,BE1031,"7.C Herbaceous & Woody Developed Vegetation,Herb",17119.84556
+100,BE1031,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1471.086959
+101,BE1031,"7.C Herbaceous & Woody Developed Vegetation,Tree",39812.27201
+102,BE1031,"Developed-Low Intensity,Developed",18129.17112
+103,BE1031,"Developed-Medium Intensity,Developed",2466.047273
+104,BE1031,"Developed-Roads,Developed",42730.46721
+105,BE1031,"Open Water,Water",30246.39475
+106,BE1047,"1.B Temperate & Boreal Forest & Woodland,Tree",572346.6707
+107,BE1047,"7.A Woody Agricultural Vegetation,Tree",2700
+108,BE1047,"7.C Herbaceous & Woody Developed Vegetation,Herb",11653.44685
+109,BE1047,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3645.052552
+110,BE1047,"7.C Herbaceous & Woody Developed Vegetation,Tree",99366.84492
+111,BE1047,"Developed-Low Intensity,Developed",10094.94394
+112,BE1047,"Developed-Roads,Developed",72735.52696
+113,BE1059,"1.B Temperate & Boreal Forest & Woodland,Tree",468708.958
+114,BE1059,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2980.728149
+115,BE1059,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2132.42577
+116,BE1059,"7.B Herbaceous Agricultural Vegetation,Herb",6300
+117,BE1059,"7.C Herbaceous & Woody Developed Vegetation,Herb",70468.36422
+118,BE1059,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+119,BE1059,"7.C Herbaceous & Woody Developed Vegetation,Tree",98440.42746
+120,BE1059,"Developed-High Intensity,Developed",4197.545849
+121,BE1059,"Developed-Low Intensity,Developed",69244.89176
+122,BE1059,"Developed-Medium Intensity,Developed",19927.35084
+123,BE1059,"Developed-Roads,Developed",27441.79384
+124,BE1063,"1.B Temperate & Boreal Forest & Woodland,Tree",90899.78951
+125,BE1063,"7.C Herbaceous & Woody Developed Vegetation,Herb",457371.1392
+126,BE1063,"7.C Herbaceous & Woody Developed Vegetation,Shrub",13540.71716
+127,BE1063,"7.C Herbaceous & Woody Developed Vegetation,Tree",107160.6023
+128,BE1063,"Developed-Low Intensity,Developed",32626.39204
+129,BE1063,"Developed-Medium Intensity,Developed",6764.937212
+130,BE1063,"Developed-Roads,Developed",63494.95343
+131,BE1063,"Open Water,Water",683.9408626
+132,BE1068,"1.B Temperate & Boreal Forest & Woodland,Tree",436465.5507
+133,BE1068,"7.C Herbaceous & Woody Developed Vegetation,Herb",33074.55863
+134,BE1068,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7222.808105
+135,BE1068,"7.C Herbaceous & Woody Developed Vegetation,Tree",106199.6143
+136,BE1068,"Developed-High Intensity,Developed",6031.653423
+137,BE1068,"Developed-Low Intensity,Developed",61743.84286
+138,BE1068,"Developed-Medium Intensity,Developed",42326.63139
+139,BE1068,"Developed-Roads,Developed",35625.00872
+140,BE1068,"Open Water,Water",43852.81786
+141,BE1079,"1.B Temperate & Boreal Forest & Woodland,Tree",638193.9929
+142,BE1079,"2.B Temperate & Boreal Grassland & Shrubland,Herb",5197.500845
+143,BE1079,"7.B Herbaceous Agricultural Vegetation,Herb",1333.068847
+144,BE1079,"7.C Herbaceous & Woody Developed Vegetation,Herb",4500
+145,BE1079,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+146,BE1079,"7.C Herbaceous & Woody Developed Vegetation,Tree",35734.14224
+147,BE1079,"Developed-Low Intensity,Developed",4500
+148,BE1079,"Developed-Roads,Developed",34068.85061
+149,BE1079,"Open Water,Water",46314.93049
+150,BE1091,"1.B Temperate & Boreal Forest & Woodland,Tree",284289.0069
+151,BE1091,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+152,BE1091,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4500
+153,BE1091,"2.C Shrub & Herb Wetland,Herb",8100
+154,BE1091,"2.C Shrub & Herb Wetland,Tree",900
+155,BE1091,"7.C Herbaceous & Woody Developed Vegetation,Herb",71974.03528
+156,BE1091,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6636.641266
+157,BE1091,"7.C Herbaceous & Woody Developed Vegetation,Tree",146250.5311
+158,BE1091,"Developed-High Intensity,Developed",25530.28005
+159,BE1091,"Developed-Low Intensity,Developed",96875.50306
+160,BE1091,"Developed-Medium Intensity,Developed",35139.00071
+161,BE1091,"Developed-Roads,Developed",63686.71989
+162,BE1091,"Open Water,Water",27760.76772
+163,BE1095,"1.B Temperate & Boreal Forest & Woodland,Tree",441117.6612
+164,BE1095,"7.C Herbaceous & Woody Developed Vegetation,Herb",48420.53165
+165,BE1095,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4382.378142
+166,BE1095,"7.C Herbaceous & Woody Developed Vegetation,Tree",84217.38856
+167,BE1095,"Developed-High Intensity,Developed",3600
+168,BE1095,"Developed-Low Intensity,Developed",73377.44793
+169,BE1095,"Developed-Medium Intensity,Developed",12383.65676
+170,BE1095,"Developed-Roads,Developed",82166.42608
+171,BE1095,"Open Water,Water",22876.99565
+172,BE1107,"1.B Temperate & Boreal Forest & Woodland,Tree",412058.6895
+173,BE1107,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2262.644738
+174,BE1107,"2.C Shrub & Herb Wetland,Herb",1255.682373
+175,BE1107,"7.C Herbaceous & Woody Developed Vegetation,Herb",141464.3843
+176,BE1107,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2358.54219
+177,BE1107,"7.C Herbaceous & Woody Developed Vegetation,Tree",124400.2907
+178,BE1107,"Developed-Low Intensity,Developed",37976.30194
+179,BE1107,"Developed-Medium Intensity,Developed",13742.30041
+180,BE1107,"Developed-Roads,Developed",37023.6497
+181,BE1111,"1.B Temperate & Boreal Forest & Woodland,Tree",368203.6067
+182,BE1111,"7.C Herbaceous & Woody Developed Vegetation,Herb",66481.36421
+183,BE1111,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12467.38158
+184,BE1111,"7.C Herbaceous & Woody Developed Vegetation,Tree",190600.4068
+185,BE1111,"Developed-Low Intensity,Developed",57513.42219
+186,BE1111,"Developed-Roads,Developed",77276.30451
+187,BE1123,"1.B Temperate & Boreal Forest & Woodland,Tree",594668.9466
+188,BE1123,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4852.825928
+189,BE1123,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2461.290824
+190,BE1123,"7.B Herbaceous Agricultural Vegetation,Herb",6300
+191,BE1123,"7.C Herbaceous & Woody Developed Vegetation,Herb",41771.0924
+192,BE1123,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4821.8247
+193,BE1123,"7.C Herbaceous & Woody Developed Vegetation,Tree",75230.86251
+194,BE1123,"Developed-Low Intensity,Developed",11054.83881
+195,BE1123,"Developed-Roads,Developed",31380.80416
+196,BE1127,"1.B Temperate & Boreal Forest & Woodland,Tree",675332.9198
+197,BE1127,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+198,BE1127,"2.C Shrub & Herb Wetland,Herb",936.5326332
+199,BE1127,"7.A Woody Agricultural Vegetation,Tree",1845.077939
+200,BE1127,"7.C Herbaceous & Woody Developed Vegetation,Herb",2565.104912
+201,BE1127,"7.C Herbaceous & Woody Developed Vegetation,Tree",10656.11077
+202,BE1127,"Developed-Low Intensity,Developed",8401.776087
+203,BE1127,"Developed-Roads,Developed",14607.5792
+204,BE1127,"Open Water,Water",57297.38456
+205,BE1132,"1.B Temperate & Boreal Forest & Woodland,Tree",412277.1592
+206,BE1132,"7.C Herbaceous & Woody Developed Vegetation,Herb",28049.55162
+207,BE1132,"7.C Herbaceous & Woody Developed Vegetation,Tree",124648.941
+208,BE1132,"Developed-High Intensity,Developed",6726.488727
+209,BE1132,"Developed-Low Intensity,Developed",65816.6114
+210,BE1132,"Developed-Medium Intensity,Developed",43079.10462
+211,BE1132,"Developed-Roads,Developed",52137.98926
+212,BE1132,"Open Water,Water",39806.64011
+213,BE1139,"1.B Temperate & Boreal Forest & Woodland,Tree",360341.3251
+214,BE1139,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9335.793156
+215,BE1139,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",5748.646643
+216,BE1139,"2.C Shrub & Herb Wetland,Herb",1800
+217,BE1139,"2.C Shrub & Herb Wetland,Tree",1800
+218,BE1139,"7.A Woody Agricultural Vegetation,Tree",576.3427734
+219,BE1139,"7.B Herbaceous Agricultural Vegetation,Herb",89584.38265
+220,BE1139,"7.C Herbaceous & Woody Developed Vegetation,Herb",67861.71014
+221,BE1139,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+222,BE1139,"7.C Herbaceous & Woody Developed Vegetation,Tree",47251.06099
+223,BE1139,"Developed-High Intensity,Developed",640.4325251
+224,BE1139,"Developed-Low Intensity,Developed",77611.15815
+225,BE1139,"Developed-Medium Intensity,Developed",1890.677072
+226,BE1139,"Developed-Roads,Developed",64943.48617
+227,BE1139,"Open Water,Water",40457.47059
+228,BE1140,"1.B Temperate & Boreal Forest & Woodland,Tree",362763.6649
+229,BE1140,"2.B Temperate & Boreal Grassland & Shrubland,Herb",8888.361868
+230,BE1140,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",5415.961984
+231,BE1140,"2.C Shrub & Herb Wetland,Herb",1800
+232,BE1140,"2.C Shrub & Herb Wetland,Tree",1800
+233,BE1140,"7.A Woody Agricultural Vegetation,Tree",576.3427734
+234,BE1140,"7.B Herbaceous Agricultural Vegetation,Herb",88892.48823
+235,BE1140,"7.C Herbaceous & Woody Developed Vegetation,Herb",67528.79329
+236,BE1140,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+237,BE1140,"7.C Herbaceous & Woody Developed Vegetation,Tree",46793.30066
+238,BE1140,"Developed-High Intensity,Developed",812.1316212
+239,BE1140,"Developed-Low Intensity,Developed",78992.92609
+240,BE1140,"Developed-Medium Intensity,Developed",1908.59839
+241,BE1140,"Developed-Roads,Developed",63385.49541
+242,BE1140,"Open Water,Water",40284.42073
+243,BE1143,"1.B Temperate & Boreal Forest & Woodland,Tree",550430.6202
+244,BE1143,"2.B Temperate & Boreal Grassland & Shrubland,Herb",910.4061989
+245,BE1143,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+246,BE1143,"7.B Herbaceous Agricultural Vegetation,Herb",45005.31624
+247,BE1143,"7.C Herbaceous & Woody Developed Vegetation,Herb",23172.64929
+248,BE1143,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1800
+249,BE1143,"7.C Herbaceous & Woody Developed Vegetation,Tree",95411.11139
+250,BE1143,"Developed-Low Intensity,Developed",10871.54172
+251,BE1143,"Developed-Roads,Developed",12371.90465
+252,BE1143,"Open Water,Water",30768.93625
+253,BE1144,"1.B Temperate & Boreal Forest & Woodland,Tree",557599.0282
+254,BE1144,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1448.08157
+255,BE1144,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+256,BE1144,"7.B Herbaceous Agricultural Vegetation,Herb",53220.97836
+257,BE1144,"7.C Herbaceous & Woody Developed Vegetation,Herb",18558.06428
+258,BE1144,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1276.046262
+259,BE1144,"7.C Herbaceous & Woody Developed Vegetation,Tree",89974.78511
+260,BE1144,"Developed-Low Intensity,Developed",3955.598233
+261,BE1144,"Developed-Roads,Developed",12453.70453
+262,BE1144,"Open Water,Water",32256.19936
+263,BE1155,"1.B Temperate & Boreal Forest & Woodland,Tree",160865.3209
+264,BE1155,"2.B Temperate & Boreal Grassland & Shrubland,Herb",407.7373931
+265,BE1155,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3600
+266,BE1155,"2.C Shrub & Herb Wetland,Tree",900
+267,BE1155,"7.C Herbaceous & Woody Developed Vegetation,Herb",81376.16177
+268,BE1155,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+269,BE1155,"7.C Herbaceous & Woody Developed Vegetation,Tree",236872.9316
+270,BE1155,"Developed-High Intensity,Developed",18373.21687
+271,BE1155,"Developed-Low Intensity,Developed",137650.9811
+272,BE1155,"Developed-Medium Intensity,Developed",21329.47232
+273,BE1155,"Developed-Roads,Developed",106514.4006
+274,BE1155,"Open Water,Water",1952.263452
+275,BE1159,"1.B Temperate & Boreal Forest & Woodland,Tree",658735.7741
+276,BE1159,"7.C Herbaceous & Woody Developed Vegetation,Herb",9119.098929
+277,BE1159,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3600
+278,BE1159,"7.C Herbaceous & Woody Developed Vegetation,Tree",49509.86218
+279,BE1159,"Developed-Low Intensity,Developed",4500
+280,BE1159,"Developed-Roads,Developed",40809.97575
+281,BE1159,"Open Water,Water",6267.774952
+282,BE1171,"1.B Temperate & Boreal Forest & Woodland,Tree",338255.1087
+283,BE1171,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2262.644738
+284,BE1171,"2.C Shrub & Herb Wetland,Herb",1255.682373
+285,BE1171,"7.B Herbaceous Agricultural Vegetation,Herb",96014.8148
+286,BE1171,"7.C Herbaceous & Woody Developed Vegetation,Herb",97677.43702
+287,BE1171,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4415.493046
+288,BE1171,"7.C Herbaceous & Woody Developed Vegetation,Tree",159989.4103
+289,BE1171,"Developed-High Intensity,Developed",2432.488992
+290,BE1171,"Developed-Low Intensity,Developed",37462.00262
+291,BE1171,"Developed-Medium Intensity,Developed",4010.685704
+292,BE1171,"Developed-Roads,Developed",28766.71769
+293,BE1175,"1.B Temperate & Boreal Forest & Woodland,Tree",694255.3117
+294,BE1175,"7.C Herbaceous & Woody Developed Vegetation,Herb",2484.869235
+295,BE1175,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+296,BE1175,"7.C Herbaceous & Woody Developed Vegetation,Tree",44046.44271
+297,BE1175,"Developed-Low Intensity,Developed",226.5301662
+298,BE1175,"Developed-Roads,Developed",28829.33217
+299,BE1187,"1.B Temperate & Boreal Forest & Woodland,Tree",447719.9202
+300,BE1187,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1611.031073
+301,BE1187,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3605.207827
+302,BE1187,"2.C Shrub & Herb Wetland,Tree",1228.865054
+303,BE1187,"7.A Woody Agricultural Vegetation,Tree",2418.238084
+304,BE1187,"7.B Herbaceous Agricultural Vegetation,Herb",870.9094919
+305,BE1187,"7.C Herbaceous & Woody Developed Vegetation,Herb",65579.27634
+306,BE1187,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5988.757384
+307,BE1187,"7.C Herbaceous & Woody Developed Vegetation,Tree",130101.8292
+308,BE1187,"Developed-High Intensity,Developed",6377.758755
+309,BE1187,"Developed-Low Intensity,Developed",23529.62475
+310,BE1187,"Developed-Medium Intensity,Developed",16593.00667
+311,BE1187,"Developed-Roads,Developed",66918.06109
+312,BE1191,"1.B Temperate & Boreal Forest & Woodland,Tree",442168.2081
+313,BE1191,"2.B Temperate & Boreal Grassland & Shrubland,Herb",358.3241693
+314,BE1191,"7.A Woody Agricultural Vegetation,Tree",1845.077939
+315,BE1191,"7.C Herbaceous & Woody Developed Vegetation,Herb",39565.91638
+316,BE1191,"7.C Herbaceous & Woody Developed Vegetation,Shrub",893.9531732
+317,BE1191,"7.C Herbaceous & Woody Developed Vegetation,Tree",44726.21602
+318,BE1191,"Developed-Low Intensity,Developed",101628.3382
+319,BE1191,"Developed-Medium Intensity,Developed",2700
+320,BE1191,"Developed-Roads,Developed",113437.8563
+321,BE1191,"Open Water,Water",25218.5957
+322,BE1196,"1.B Temperate & Boreal Forest & Woodland,Tree",137211.707
+323,BE1196,"7.C Herbaceous & Woody Developed Vegetation,Herb",238379.275
+324,BE1196,"7.C Herbaceous & Woody Developed Vegetation,Shrub",19894.12549
+325,BE1196,"7.C Herbaceous & Woody Developed Vegetation,Tree",67718.18854
+326,BE1196,"Developed-High Intensity,Developed",7840.908151
+327,BE1196,"Developed-Low Intensity,Developed",114930.3857
+328,BE1196,"Developed-Medium Intensity,Developed",68040.55884
+329,BE1196,"Developed-Roads,Developed",89466.97425
+330,BE1196,"Open Water,Water",29060.36294
+331,BK1088,"1.B Temperate & Boreal Forest & Woodland,Tree",31727.58118
+332,BK1088,"7.C Herbaceous & Woody Developed Vegetation,Herb",95271.99196
+333,BK1088,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3882.65856
+334,BK1088,"7.C Herbaceous & Woody Developed Vegetation,Tree",51900.16048
+335,BK1088,"Developed-High Intensity,Developed",1245.723925
+336,BK1088,"Developed-Low Intensity,Developed",207546.6278
+337,BK1088,"Developed-Medium Intensity,Developed",65281.57286
+338,BK1088,"Developed-Roads,Developed",315686.1691
+339,BK1152,"1.B Temperate & Boreal Forest & Woodland,Tree",50773.68295
+340,BK1152,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9631.726745
+341,BK1152,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3575.768618
+342,BK1152,"7.C Herbaceous & Woody Developed Vegetation,Herb",164449.8205
+343,BK1152,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11052.68555
+344,BK1152,"7.C Herbaceous & Woody Developed Vegetation,Tree",27432.29513
+345,BK1152,"Developed-High Intensity,Developed",12399.48822
+346,BK1152,"Developed-Low Intensity,Developed",184369.901
+347,BK1152,"Developed-Medium Intensity,Developed",74059.69162
+348,BK1152,"Developed-Roads,Developed",234797.4256
+349,BK1200,"1.B Temperate & Boreal Forest & Woodland,Tree",110089.6758
+350,BK1200,"2.B Temperate & Boreal Grassland & Shrubland,Herb",45790.33535
+351,BK1200,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1368.797147
+352,BK1200,"2.C Shrub & Herb Wetland,Herb",1800
+353,BK1200,"7.C Herbaceous & Woody Developed Vegetation,Herb",66714.28326
+354,BK1200,"7.C Herbaceous & Woody Developed Vegetation,Shrub",9807.749877
+355,BK1200,"7.C Herbaceous & Woody Developed Vegetation,Tree",148509.9727
+356,BK1200,"Developed-High Intensity,Developed",8285.064697
+357,BK1200,"Developed-Low Intensity,Developed",171783.6264
+358,BK1200,"Developed-Medium Intensity,Developed",75915.68302
+359,BK1200,"Developed-Roads,Developed",124929.5323
+360,BK1200,"Open Water,Water",7547.765373
+361,BR1013,"1.B Temperate & Boreal Forest & Woodland,Tree",92380.70323
+362,BR1013,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1476.342773
+363,BR1013,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4500
+364,BR1013,"2.C Shrub & Herb Wetland,Tree",7313.123007
+365,BR1013,"7.C Herbaceous & Woody Developed Vegetation,Herb",84654.44568
+366,BR1013,"7.C Herbaceous & Woody Developed Vegetation,Shrub",32865.18556
+367,BR1013,"7.C Herbaceous & Woody Developed Vegetation,Tree",432050.3539
+368,BR1013,"Developed-Low Intensity,Developed",54621.05538
+369,BR1013,"Developed-Medium Intensity,Developed",11629.13984
+370,BR1013,"Developed-Roads,Developed",51052.13653
+371,BR1023,"1.B Temperate & Boreal Forest & Woodland,Tree",219588.8881
+372,BR1023,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+373,BR1023,"7.A Woody Agricultural Vegetation,Tree",1214.820199
+374,BR1023,"7.B Herbaceous Agricultural Vegetation,Herb",7680.943269
+375,BR1023,"7.C Herbaceous & Woody Developed Vegetation,Herb",109552.9608
+376,BR1023,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17676.34277
+377,BR1023,"7.C Herbaceous & Woody Developed Vegetation,Tree",261553.9169
+378,BR1023,"Developed-Low Intensity,Developed",87878.89635
+379,BR1023,"Developed-Medium Intensity,Developed",576.3427734
+380,BR1023,"Developed-Roads,Developed",65019.37467
+381,BR1025,"1.B Temperate & Boreal Forest & Woodland,Tree",710213.7464
+382,BR1025,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1800
+383,BR1025,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4500
+384,BR1025,"7.C Herbaceous & Woody Developed Vegetation,Shrub",399.4254118
+385,BR1025,"7.C Herbaceous & Woody Developed Vegetation,Tree",17211.50852
+386,BR1025,"Developed-Low Intensity,Developed",900
+387,BR1025,"Developed-Roads,Developed",37517.80562
+388,BR1029,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+389,BR1029,"1.B Temperate & Boreal Forest & Woodland,Tree",425013.264
+390,BR1029,"2.B Temperate & Boreal Grassland & Shrubland,Herb",56646.73785
+391,BR1029,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",9081.958008
+392,BR1029,"2.C Shrub & Herb Wetland,Herb",170354.7753
+393,BR1029,"2.C Shrub & Herb Wetland,Shrub",18707.36552
+394,BR1029,"7.B Herbaceous Agricultural Vegetation,Agriculture",60.11712176
+395,BR1029,"7.C Herbaceous & Woody Developed Vegetation,Herb",4362.821444
+396,BR1029,"7.C Herbaceous & Woody Developed Vegetation,Tree",724.2755045
+397,BR1029,"Developed-Low Intensity,Developed",4734.438822
+398,BR1029,"Developed-Medium Intensity,Developed",39.5388974
+399,BR1029,"Developed-Roads,Developed",14641.72679
+400,BR1029,"Open Water,Water",67275.46663
+401,BR1041,"1.B Temperate & Boreal Forest & Woodland,Tree",692620.9449
+402,BR1041,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1800
+403,BR1041,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4500
+404,BR1041,"7.A Woody Agricultural Vegetation,Tree",1707.959082
+405,BR1041,"7.C Herbaceous & Woody Developed Vegetation,Herb",1800
+406,BR1041,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1656.192103
+407,BR1041,"7.C Herbaceous & Woody Developed Vegetation,Tree",23351.7167
+408,BR1041,"Developed-Low Intensity,Developed",900
+409,BR1041,"Developed-Roads,Developed",44205.67318
+410,BR1043,"1.B Temperate & Boreal Forest & Woodland,Tree",488918.865
+411,BR1043,"2.B Temperate & Boreal Grassland & Shrubland,Herb",14482.23259
+412,BR1043,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",8350.44552
+413,BR1043,"2.C Shrub & Herb Wetland,Herb",65607.99404
+414,BR1043,"7.A Woody Agricultural Vegetation,Tree",5431.033084
+415,BR1043,"7.B Herbaceous Agricultural Vegetation,Herb",3802.047563
+416,BR1043,"7.C Herbaceous & Woody Developed Vegetation,Herb",11652.82812
+417,BR1043,"7.C Herbaceous & Woody Developed Vegetation,Tree",6185.335426
+418,BR1043,"Developed-Low Intensity,Developed",13819.07736
+419,BR1043,"Developed-Medium Intensity,Developed",9701.456322
+420,BR1043,"Developed-Roads,Developed",35064.64879
+421,BR1043,"Open Water,Water",109526.5221
+422,BR1045,"1.B Temperate & Boreal Forest & Woodland,Tree",749888.3262
+423,BR1045,"7.B Herbaceous Agricultural Vegetation,Herb",470.0426644
+424,BR1045,"7.C Herbaceous & Woody Developed Vegetation,Herb",1800
+425,BR1045,"7.C Herbaceous & Woody Developed Vegetation,Shrub",899.8464302
+426,BR1045,"7.C Herbaceous & Woody Developed Vegetation,Tree",207.2022351
+427,BR1045,"Developed-Roads,Developed",19277.06843
+428,BR1057,"1.B Temperate & Boreal Forest & Woodland,Tree",722869.3324
+429,BR1057,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3276.342773
+430,BR1057,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+431,BR1057,"2.C Shrub & Herb Wetland,Herb",8960.518234
+432,BR1057,"7.C Herbaceous & Woody Developed Vegetation,Tree",14754.93095
+433,BR1057,"Developed-Roads,Developed",21781.36161
+434,BR1061,"1.B Temperate & Boreal Forest & Woodland,Tree",730653.5585
+435,BR1061,"7.C Herbaceous & Woody Developed Vegetation,Tree",9590.625
+436,BR1061,"Developed-Roads,Developed",32298.30241
+437,BR1077,"1.B Temperate & Boreal Forest & Woodland,Tree",159905.8153
+438,BR1077,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+439,BR1077,"7.C Herbaceous & Woody Developed Vegetation,Herb",173293.1349
+440,BR1077,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18033.64892
+441,BR1077,"7.C Herbaceous & Woody Developed Vegetation,Tree",143570.795
+442,BR1077,"Developed-High Intensity,Developed",17621.97107
+443,BR1077,"Developed-Low Intensity,Developed",97942.72723
+444,BR1077,"Developed-Medium Intensity,Developed",56792.59911
+445,BR1077,"Developed-Roads,Developed",104481.7944
+446,BR1089,"1.B Temperate & Boreal Forest & Woodland,Tree",703289.1411
+447,BR1089,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1277.161131
+448,BR1089,"7.A Woody Agricultural Vegetation,Tree",3382.470703
+449,BR1089,"7.C Herbaceous & Woody Developed Vegetation,Herb",900
+450,BR1089,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+451,BR1089,"7.C Herbaceous & Woody Developed Vegetation,Tree",25395.80765
+452,BR1089,"Developed-Roads,Developed",37397.90535
+453,BR1093,"1.B Temperate & Boreal Forest & Woodland,Tree",754960.7391
+454,BR1093,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1232.444572
+455,BR1093,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7933.359911
+456,BR1093,"2.C Shrub & Herb Wetland,Herb",2508.685128
+457,BR1093,"2.C Shrub & Herb Wetland,Shrub",3877.848973
+458,BR1093,"7.A Woody Agricultural Vegetation,Tree",147.3646125
+459,BR1093,"7.C Herbaceous & Woody Developed Vegetation,Herb",17.74151951
+460,BR1093,"Developed-Roads,Developed",1864.302098
+461,BR1105,"1.B Temperate & Boreal Forest & Woodland,Tree",738974.5138
+462,BR1105,"2.B Temperate & Boreal Grassland & Shrubland,Herb",567.4268485
+463,BR1105,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2500.675422
+464,BR1105,"7.C Herbaceous & Woody Developed Vegetation,Tree",9330.691816
+465,BR1105,"Developed-Low Intensity,Developed",900
+466,BR1105,"Developed-Roads,Developed",20269.17807
+467,BR1109,"1.B Temperate & Boreal Forest & Woodland,Tree",409180.37
+468,BR1109,"2.B Temperate & Boreal Grassland & Shrubland,Herb",10894.81201
+469,BR1109,"2.C Shrub & Herb Wetland,Herb",8770.806057
+470,BR1109,"7.A Woody Agricultural Vegetation,Tree",2700
+471,BR1109,"7.C Herbaceous & Woody Developed Vegetation,Herb",22864.14525
+472,BR1109,"7.C Herbaceous & Woody Developed Vegetation,Shrub",9347.957743
+473,BR1109,"7.C Herbaceous & Woody Developed Vegetation,Tree",192284.9721
+474,BR1109,"Developed-Low Intensity,Developed",15254.17703
+475,BR1109,"Developed-Roads,Developed",21667.44024
+476,BR1109,"Open Water,Water",79577.80558
+477,BR1121,"1.B Temperate & Boreal Forest & Woodland,Tree",640906.9259
+478,BR1121,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3149.782976
+479,BR1121,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",12611.64551
+480,BR1121,"7.A Woody Agricultural Vegetation,Tree",6864.665099
+481,BR1121,"7.C Herbaceous & Woody Developed Vegetation,Herb",11629.02832
+482,BR1121,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4500
+483,BR1121,"7.C Herbaceous & Woody Developed Vegetation,Tree",36541.53046
+484,BR1121,"Developed-Low Intensity,Developed",12379.39453
+485,BR1121,"Developed-Medium Intensity,Developed",576.3427735
+486,BR1121,"Developed-Roads,Developed",43383.17041
+487,BR1125,"1.B Temperate & Boreal Forest & Woodland,Shrub",1255.737305
+488,BR1125,"1.B Temperate & Boreal Forest & Woodland,Tree",631928.0591
+489,BR1125,"2.B Temperate & Boreal Grassland & Shrubland,Herb",33897.50909
+490,BR1125,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",886.0830128
+491,BR1125,"2.C Shrub & Herb Wetland,Herb",13219.06444
+492,BR1125,"2.C Shrub & Herb Wetland,Shrub",1842.019544
+493,BR1125,"7.A Woody Agricultural Vegetation,Tree",900
+494,BR1125,"7.C Herbaceous & Woody Developed Vegetation,Herb",5324.359397
+495,BR1125,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+496,BR1125,"7.C Herbaceous & Woody Developed Vegetation,Tree",8606.458932
+497,BR1125,"Developed-Low Intensity,Developed",425.2639774
+498,BR1125,"Developed-Roads,Developed",56558.90415
+499,BR1125,"Open Water,Water",16799.02699
+500,BR1137,"1.B Temperate & Boreal Forest & Woodland,Tree",312117.1521
+501,BR1137,"2.B Temperate & Boreal Grassland & Shrubland,Herb",576.3427734
+502,BR1137,"7.A Woody Agricultural Vegetation,Tree",2278.397942
+503,BR1137,"7.B Herbaceous Agricultural Vegetation,Agriculture",616.2222862
+504,BR1137,"7.C Herbaceous & Woody Developed Vegetation,Herb",225065.7886
+505,BR1137,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17616.83793
+506,BR1137,"7.C Herbaceous & Woody Developed Vegetation,Tree",117880.6444
+507,BR1137,"Developed-Low Intensity,Developed",31177.49507
+508,BR1137,"Developed-Medium Intensity,Developed",10300.23108
+509,BR1137,"Developed-Roads,Developed",54913.37383
+510,BR1141,"1.B Temperate & Boreal Forest & Woodland,Shrub",642.0140805
+511,BR1141,"1.B Temperate & Boreal Forest & Woodland,Tree",588590.253
+512,BR1141,"2.B Temperate & Boreal Grassland & Shrubland,Herb",19515.57939
+513,BR1141,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",18849.80822
+514,BR1141,"2.C Shrub & Herb Wetland,Herb",82476.39984
+515,BR1141,"2.C Shrub & Herb Wetland,Shrub",8036.403336
+516,BR1141,"7.B Herbaceous Agricultural Vegetation,Herb",4512.927266
+517,BR1141,"7.C Herbaceous & Woody Developed Vegetation,Herb",6768.069149
+518,BR1141,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1800
+519,BR1141,"7.C Herbaceous & Woody Developed Vegetation,Tree",1800
+520,BR1141,"Developed-Low Intensity,Developed",6454.6875
+521,BR1141,"Developed-Roads,Developed",33096.34413
+522,BR1153,"1.B Temperate & Boreal Forest & Woodland,Tree",668781.8199
+523,BR1153,"2.B Temperate & Boreal Grassland & Shrubland,Herb",576.3427735
+524,BR1153,"7.A Woody Agricultural Vegetation,Tree",3382.470703
+525,BR1153,"7.C Herbaceous & Woody Developed Vegetation,Herb",25140.62686
+526,BR1153,"7.C Herbaceous & Woody Developed Vegetation,Shrub",937.1398194
+527,BR1153,"7.C Herbaceous & Woody Developed Vegetation,Tree",30015.91991
+528,BR1153,"Developed-Roads,Developed",43708.16598
+529,BR1157,"1.B Temperate & Boreal Forest & Woodland,Tree",681004.7225
+530,BR1157,"7.A Woody Agricultural Vegetation,Tree",616.2222863
+531,BR1157,"7.C Herbaceous & Woody Developed Vegetation,Herb",4176.342774
+532,BR1157,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3600
+533,BR1157,"7.C Herbaceous & Woody Developed Vegetation,Tree",70434.94903
+534,BR1157,"Developed-Low Intensity,Developed",899.8223954
+535,BR1157,"Developed-Roads,Developed",11810.42693
+536,BR1169,"1.B Temperate & Boreal Forest & Woodland,Tree",418058.596
+537,BR1169,"2.B Temperate & Boreal Grassland & Shrubland,Herb",576.3427734
+538,BR1169,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1926.125749
+539,BR1169,"7.C Herbaceous & Woody Developed Vegetation,Herb",27107.76839
+540,BR1169,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11279.98695
+541,BR1169,"7.C Herbaceous & Woody Developed Vegetation,Tree",175905.3098
+542,BR1169,"Developed-Low Intensity,Developed",31900.43998
+543,BR1169,"Developed-Medium Intensity,Developed",133.7204288
+544,BR1169,"Developed-Roads,Developed",105654.1959
+545,BR1173,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+546,BR1173,"1.B Temperate & Boreal Forest & Woodland,Tree",484807.5076
+547,BR1173,"2.B Temperate & Boreal Grassland & Shrubland,Herb",76799.05087
+548,BR1173,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",13178.2589
+549,BR1173,"2.C Shrub & Herb Wetland,Herb",10101.71263
+550,BR1173,"2.C Shrub & Herb Wetland,Shrub",2366.400146
+551,BR1173,"7.A Woody Agricultural Vegetation,Tree",900
+552,BR1173,"7.B Herbaceous Agricultural Vegetation,Agriculture",576.3427735
+553,BR1173,"7.B Herbaceous Agricultural Vegetation,Herb",19285.45814
+554,BR1173,"7.C Herbaceous & Woody Developed Vegetation,Herb",20509.08906
+555,BR1173,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1334.229047
+556,BR1173,"7.C Herbaceous & Woody Developed Vegetation,Tree",49942.31916
+557,BR1173,"Developed-High Intensity,Developed",900
+558,BR1173,"Developed-Low Intensity,Developed",8408.592154
+559,BR1173,"Developed-Medium Intensity,Developed",900
+560,BR1173,"Developed-Roads,Developed",69966.99966
+561,BR1173,"Open Water,Water",11666.52582
+562,BR1185,"1.B Temperate & Boreal Forest & Woodland,Tree",707652.734
+563,BR1185,"7.A Woody Agricultural Vegetation,Tree",1228.900751
+564,BR1185,"7.C Herbaceous & Woody Developed Vegetation,Herb",4539.02917
+565,BR1185,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1443.797627
+566,BR1185,"7.C Herbaceous & Woody Developed Vegetation,Tree",19166.96777
+567,BR1185,"Developed-Low Intensity,Developed",1800
+568,BR1185,"Developed-Roads,Developed",36711.05659
+569,BR1189,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+570,BR1189,"1.B Temperate & Boreal Forest & Woodland,Tree",673957.1701
+571,BR1189,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3600
+572,BR1189,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2700
+573,BR1189,"2.C Shrub & Herb Wetland,Herb",1014.374464
+574,BR1189,"2.C Shrub & Herb Wetland,Shrub",900
+575,BR1189,"7.A Woody Agricultural Vegetation,Tree",236.2378246
+576,BR1189,"7.C Herbaceous & Woody Developed Vegetation,Tree",3540.179688
+577,BR1189,"Developed-High Intensity,Developed",900
+578,BR1189,"Developed-Medium Intensity,Developed",1800
+579,BR1189,"Developed-Roads,Developed",66508.39608
+580,BR1189,"Open Water,Water",16486.12779
+581,BW1006,"1.B Temperate & Boreal Forest & Woodland,Tree",678621.4308
+582,BW1006,"7.C Herbaceous & Woody Developed Vegetation,Herb",12411.6773
+583,BW1006,"7.C Herbaceous & Woody Developed Vegetation,Tree",42932.35817
+584,BW1006,"Developed-Low Intensity,Developed",12687.73244
+585,BW1006,"Developed-Roads,Developed",25889.28721
+586,BW1050,"1.B Temperate & Boreal Forest & Woodland,Tree",356774.0883
+587,BW1050,"7.A Woody Agricultural Vegetation,Tree",75.18824342
+588,BW1050,"7.C Herbaceous & Woody Developed Vegetation,Herb",41030.06631
+589,BW1050,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6235.57528
+590,BW1050,"7.C Herbaceous & Woody Developed Vegetation,Tree",242618.5677
+591,BW1050,"Developed-Low Intensity,Developed",78223.70069
+592,BW1050,"Developed-Medium Intensity,Developed",2700
+593,BW1050,"Developed-Roads,Developed",44885.29942
+594,BW1070,"1.B Temperate & Boreal Forest & Woodland,Tree",555795.9672
+595,BW1070,"7.C Herbaceous & Woody Developed Vegetation,Herb",20229.59017
+596,BW1070,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3348.061437
+597,BW1070,"7.C Herbaceous & Woody Developed Vegetation,Tree",138182.6533
+598,BW1070,"Developed-Low Intensity,Developed",39474.98577
+599,BW1070,"Developed-Medium Intensity,Developed",2376.34964
+600,BW1070,"Developed-Roads,Developed",13134.87843
+601,BW1114,"1.B Temperate & Boreal Forest & Woodland,Tree",324956.6153
+602,BW1114,"2.C Shrub & Herb Wetland,Herb",2184.313348
+603,BW1114,"7.A Woody Agricultural Vegetation,Tree",51.55237006
+604,BW1114,"7.C Herbaceous & Woody Developed Vegetation,Herb",48240.57501
+605,BW1114,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18686.87972
+606,BW1114,"7.C Herbaceous & Woody Developed Vegetation,Tree",148007.4155
+607,BW1114,"Developed-Low Intensity,Developed",134524.3728
+608,BW1114,"Developed-Medium Intensity,Developed",4040.009564
+609,BW1114,"Developed-Roads,Developed",91850.75228
+610,BW1134,"1.B Temperate & Boreal Forest & Woodland,Tree",267505.933
+611,BW1134,"7.A Woody Agricultural Vegetation,Tree",1228.857416
+612,BW1134,"7.C Herbaceous & Woody Developed Vegetation,Herb",56359.51209
+613,BW1134,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12306.41334
+614,BW1134,"7.C Herbaceous & Woody Developed Vegetation,Tree",212957.6532
+615,BW1134,"Developed-High Intensity,Developed",6867.425549
+616,BW1134,"Developed-Low Intensity,Developed",95894.65004
+617,BW1134,"Developed-Medium Intensity,Developed",34917.96812
+618,BW1134,"Developed-Roads,Developed",84504.07319
+619,BW1178,"1.B Temperate & Boreal Forest & Woodland,Tree",213663.6369
+620,BW1178,"7.C Herbaceous & Woody Developed Vegetation,Herb",67794.24452
+621,BW1178,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6046.84773
+622,BW1178,"7.C Herbaceous & Woody Developed Vegetation,Tree",304889.5996
+623,BW1178,"Developed-Low Intensity,Developed",79288.14236
+624,BW1178,"Developed-Medium Intensity,Developed",4371.53254
+625,BW1178,"Developed-Roads,Developed",96488.48232
+626,BW1198,"1.B Temperate & Boreal Forest & Woodland,Tree",44459.91291
+627,BW1198,"7.C Herbaceous & Woody Developed Vegetation,Herb",109912.3379
+628,BW1198,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8107.980976
+629,BW1198,"7.C Herbaceous & Woody Developed Vegetation,Tree",433455.3942
+630,BW1198,"Developed-Low Intensity,Developed",108791.8
+631,BW1198,"Developed-Medium Intensity,Developed",5492.388153
+632,BW1198,"Developed-Roads,Developed",62322.67186
+633,EC1036,"1.B Temperate & Boreal Forest & Woodland,Tree",126826.4365
+634,EC1036,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1800
+635,EC1036,"7.C Herbaceous & Woody Developed Vegetation,Herb",62760.97798
+636,EC1036,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6509.443702
+637,EC1036,"7.C Herbaceous & Woody Developed Vegetation,Tree",113648.8392
+638,EC1036,"Developed-High Intensity,Developed",19249.85478
+639,EC1036,"Developed-Low Intensity,Developed",195949.1866
+640,EC1036,"Developed-Medium Intensity,Developed",44917.22275
+641,EC1036,"Developed-Roads,Developed",200880.5244
+642,EC1148,"1.B Temperate & Boreal Forest & Woodland,Tree",138975.1828
+643,EC1148,"7.C Herbaceous & Woody Developed Vegetation,Herb",68160.54988
+644,EC1148,"7.C Herbaceous & Woody Developed Vegetation,Shrub",23454.13816
+645,EC1148,"7.C Herbaceous & Woody Developed Vegetation,Tree",299776.5798
+646,EC1148,"Developed-High Intensity,Developed",7410.743459
+647,EC1148,"Developed-Low Intensity,Developed",118075.9666
+648,EC1148,"Developed-Medium Intensity,Developed",44103.672
+649,EC1148,"Developed-Roads,Developed",72585.65323
+650,GP1164,"1.B Temperate & Boreal Forest & Woodland,Tree",58785.65332
+651,GP1164,"2.B Temperate & Boreal Grassland & Shrubland,Herb",16548.21856
+652,GP1164,"2.C Shrub & Herb Wetland,Herb",589.5351091
+653,GP1164,"7.C Herbaceous & Woody Developed Vegetation,Herb",190332.0797
+654,GP1164,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5135.616415
+655,GP1164,"7.C Herbaceous & Woody Developed Vegetation,Tree",142483.1272
+656,GP1164,"Developed-High Intensity,Developed",5076.342774
+657,GP1164,"Developed-Low Intensity,Developed",121171.8032
+658,GP1164,"Developed-Medium Intensity,Developed",58462.46101
+659,GP1164,"Developed-Roads,Developed",147940.8519
+660,GP1164,"Open Water,Water",26016.79676
+661,HI1002,"1.B Temperate & Boreal Forest & Woodland,Tree",645342.9958
+662,HI1002,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2700
+663,HI1002,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",9467.50647
+664,HI1002,"7.B Herbaceous Agricultural Vegetation,Agriculture",576.3427734
+665,HI1002,"7.B Herbaceous Agricultural Vegetation,Herb",53957.87877
+666,HI1002,"7.C Herbaceous & Woody Developed Vegetation,Herb",3846.263111
+667,HI1002,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2394.490762
+668,HI1002,"7.C Herbaceous & Woody Developed Vegetation,Tree",40931.74164
+669,HI1002,"Developed-Low Intensity,Developed",725.2665898
+670,HI1002,"Open Water,Water",12600
+671,HI1005,"1.B Temperate & Boreal Forest & Woodland,Shrub",15020.06146
+672,HI1005,"1.B Temperate & Boreal Forest & Woodland,Tree",629437.3228
+673,HI1005,"2.C Shrub & Herb Wetland,Herb",9490.757833
+674,HI1005,"2.C Shrub & Herb Wetland,Shrub",5678.303447
+675,HI1005,"7.B Herbaceous Agricultural Vegetation,Herb",5282.999994
+676,HI1005,"7.C Herbaceous & Woody Developed Vegetation,Herb",33430.26221
+677,HI1005,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2952.685547
+678,HI1005,"7.C Herbaceous & Woody Developed Vegetation,Tree",60515.89515
+679,HI1005,"Developed-Low Intensity,Developed",3276.342774
+680,HI1005,"Developed-Roads,Developed",7086.367427
+681,HI1005,"Open Water,Water",371.4873224
+682,HI1009,"1.B Temperate & Boreal Forest & Woodland,Tree",577413.3244
+683,HI1009,"2.B Temperate & Boreal Grassland & Shrubland,Herb",19136.77962
+684,HI1009,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",9929.943477
+685,HI1009,"2.C Shrub & Herb Wetland,Herb",7804.462835
+686,HI1009,"2.C Shrub & Herb Wetland,Tree",1476.342773
+687,HI1009,"7.A Woody Agricultural Vegetation,Tree",9394.572982
+688,HI1009,"7.B Herbaceous Agricultural Vegetation,Agriculture",3055.682373
+689,HI1009,"7.B Herbaceous Agricultural Vegetation,Herb",7200
+690,HI1009,"7.C Herbaceous & Woody Developed Vegetation,Herb",9418.208787
+691,HI1009,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5555.193528
+692,HI1009,"7.C Herbaceous & Woody Developed Vegetation,Tree",34760.70917
+693,HI1009,"Developed-Low Intensity,Developed",10499.60006
+694,HI1009,"Developed-Medium Intensity,Developed",2700
+695,HI1009,"Developed-Roads,Developed",33883.99095
+696,HI1009,"Open Water,Water",40313.67497
+697,HI1018,"1.B Temperate & Boreal Forest & Woodland,Tree",726380.8757
+698,HI1018,"7.A Woody Agricultural Vegetation,Tree",660.439709
+699,HI1018,"7.C Herbaceous & Woody Developed Vegetation,Tree",15593.49026
+700,HI1018,"Developed-Low Intensity,Developed",351.0118839
+701,HI1018,"Developed-Roads,Developed",11816.99293
+702,HI1018,"Open Water,Water",17739.67544
+703,HI1021,"1.B Temperate & Boreal Forest & Woodland,Tree",396117.8602
+704,HI1021,"2.C Shrub & Herb Wetland,Tree",1375.394876
+705,HI1021,"7.A Woody Agricultural Vegetation,Tree",616.8182356
+706,HI1021,"7.C Herbaceous & Woody Developed Vegetation,Herb",8734.709934
+707,HI1021,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5400
+708,HI1021,"7.C Herbaceous & Woody Developed Vegetation,Tree",315459.8304
+709,HI1021,"Developed-Low Intensity,Developed",900
+710,HI1021,"Developed-Roads,Developed",43937.87231
+711,HI1034,"1.B Temperate & Boreal Forest & Woodland,Tree",689302.4152
+712,HI1034,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2137.331366
+713,HI1034,"2.C Shrub & Herb Wetland,Herb",68.42190631
+714,HI1034,"2.C Shrub & Herb Wetland,Tree",616.2128851
+715,HI1034,"7.B Herbaceous Agricultural Vegetation,Agriculture",13256.37084
+716,HI1034,"7.B Herbaceous Agricultural Vegetation,Herb",12701.39638
+717,HI1034,"7.C Herbaceous & Woody Developed Vegetation,Herb",6300
+718,HI1034,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4962.451835
+719,HI1034,"7.C Herbaceous & Woody Developed Vegetation,Tree",32425.32774
+720,HI1034,"Developed-Low Intensity,Developed",886.9230731
+721,HI1034,"Developed-Roads,Developed",7746.019628
+722,HI1034,"Open Water,Water",2139.615078
+723,HI1037,"1.B Temperate & Boreal Forest & Woodland,Tree",283488.0189
+724,HI1037,"2.B Temperate & Boreal Grassland & Shrubland,Herb",104269.1052
+725,HI1037,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",5545.953369
+726,HI1037,"2.C Shrub & Herb Wetland,Tree",4854.667023
+727,HI1037,"7.A Woody Agricultural Vegetation,Tree",616.2128851
+728,HI1037,"7.B Herbaceous Agricultural Vegetation,Agriculture",29343.87704
+729,HI1037,"7.B Herbaceous Agricultural Vegetation,Herb",105256.3963
+730,HI1037,"7.C Herbaceous & Woody Developed Vegetation,Herb",38630.14624
+731,HI1037,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11588.05214
+732,HI1037,"7.C Herbaceous & Woody Developed Vegetation,Tree",153911.497
+733,HI1037,"Developed-Low Intensity,Developed",6300
+734,HI1037,"Developed-Roads,Developed",28738.5599
+735,HI1053,"1.B Temperate & Boreal Forest & Woodland,Tree",657814.6803
+736,HI1053,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2128.885475
+737,HI1053,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+738,HI1053,"7.A Woody Agricultural Vegetation,Tree",2260.773569
+739,HI1053,"7.B Herbaceous Agricultural Vegetation,Herb",18107.12766
+740,HI1053,"7.C Herbaceous & Woody Developed Vegetation,Herb",4711.61699
+741,HI1053,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2742.283452
+742,HI1053,"7.C Herbaceous & Woody Developed Vegetation,Tree",13839.75889
+743,HI1053,"Developed-Low Intensity,Developed",10800
+744,HI1053,"Developed-Roads,Developed",24732.30487
+745,HI1053,"Open Water,Water",33605.05475
+746,HI1066,"1.B Temperate & Boreal Forest & Woodland,Tree",769814.0812
+747,HI1066,"7.A Woody Agricultural Vegetation,Tree",2728.404774
+748,HI1069,"1.B Temperate & Boreal Forest & Woodland,Shrub",5964.893988
+749,HI1069,"1.B Temperate & Boreal Forest & Woodland,Tree",577717.5389
+750,HI1069,"2.C Shrub & Herb Wetland,Herb",4483.663221
+751,HI1069,"2.C Shrub & Herb Wetland,Shrub",2258.051833
+752,HI1069,"7.C Herbaceous & Woody Developed Vegetation,Herb",49557.17057
+753,HI1069,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5316.73028
+754,HI1069,"7.C Herbaceous & Woody Developed Vegetation,Tree",83703.18271
+755,HI1069,"Developed-Low Intensity,Developed",18918.85345
+756,HI1069,"Developed-Medium Intensity,Developed",1798.743766
+757,HI1069,"Open Water,Water",22823.65723
+758,HI1073,"1.B Temperate & Boreal Forest & Woodland,Tree",413109.7561
+759,HI1073,"2.B Temperate & Boreal Grassland & Shrubland,Herb",8940.883295
+760,HI1073,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",59.8597149
+761,HI1073,"7.A Woody Agricultural Vegetation,Tree",2052.685547
+762,HI1073,"7.B Herbaceous Agricultural Vegetation,Agriculture",899.9999999
+763,HI1073,"7.B Herbaceous Agricultural Vegetation,Herb",29592.25108
+764,HI1073,"7.C Herbaceous & Woody Developed Vegetation,Herb",25288.78497
+765,HI1073,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3993.487196
+766,HI1073,"7.C Herbaceous & Woody Developed Vegetation,Tree",224814.7024
+767,HI1073,"Developed-Low Intensity,Developed",5831.693186
+768,HI1073,"Developed-Roads,Developed",57958.38247
+769,HI1082,"1.B Temperate & Boreal Forest & Woodland,Tree",701612.2056
+770,HI1082,"2.B Temperate & Boreal Grassland & Shrubland,Herb",40146.16672
+771,HI1082,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",11654.83214
+772,HI1082,"7.A Woody Agricultural Vegetation,Tree",13098.24763
+773,HI1082,"7.B Herbaceous Agricultural Vegetation,Herb",2155.737305
+774,HI1082,"7.C Herbaceous & Woody Developed Vegetation,Tree",1638.284492
+775,HI1082,"Developed-Roads,Developed",104.6236712
+776,HI1082,"Open Water,Water",2132.388423
+777,HI1085,"1.B Temperate & Boreal Forest & Woodland,Tree",244467.2877
+778,HI1085,"2.B Temperate & Boreal Grassland & Shrubland,Herb",12852.68555
+779,HI1085,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3600
+780,HI1085,"7.A Woody Agricultural Vegetation,Tree",10092.70363
+781,HI1085,"7.B Herbaceous Agricultural Vegetation,Agriculture",900
+782,HI1085,"7.B Herbaceous Agricultural Vegetation,Herb",5696.386203
+783,HI1085,"7.C Herbaceous & Woody Developed Vegetation,Herb",27867.35343
+784,HI1085,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18885.26821
+785,HI1085,"7.C Herbaceous & Woody Developed Vegetation,Tree",174298.5478
+786,HI1085,"Developed-Low Intensity,Developed",29483.35916
+787,HI1085,"Developed-Medium Intensity,Developed",623.8174928
+788,HI1085,"Developed-Roads,Developed",95347.99969
+789,HI1085,"Open Water,Water",148427.0771
+790,HI1098,"1.B Temperate & Boreal Forest & Woodland,Tree",375535.6176
+791,HI1098,"2.B Temperate & Boreal Grassland & Shrubland,Herb",53494.95861
+792,HI1098,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",17999.939
+793,HI1098,"2.C Shrub & Herb Wetland,Herb",4620.65403
+794,HI1098,"7.A Woody Agricultural Vegetation,Tree",1425.297081
+795,HI1098,"7.B Herbaceous Agricultural Vegetation,Herb",28205.79872
+796,HI1098,"7.C Herbaceous & Woody Developed Vegetation,Herb",31741.96433
+797,HI1098,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17270.3419
+798,HI1098,"7.C Herbaceous & Woody Developed Vegetation,Tree",207511.7551
+799,HI1098,"Developed-Low Intensity,Developed",5400
+800,HI1098,"Developed-Roads,Developed",17280.42219
+801,HI1098,"Open Water,Water",12055.7373
+802,HI1101,"1.B Temperate & Boreal Forest & Woodland,Tree",608534.0807
+803,HI1101,"2.B Temperate & Boreal Grassland & Shrubland,Herb",49212.81606
+804,HI1101,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+805,HI1101,"7.A Woody Agricultural Vegetation,Tree",60.55981517
+806,HI1101,"7.B Herbaceous Agricultural Vegetation,Agriculture",482.8324695
+807,HI1101,"7.B Herbaceous Agricultural Vegetation,Herb",85850.37313
+808,HI1101,"7.C Herbaceous & Woody Developed Vegetation,Herb",9900
+809,HI1101,"7.C Herbaceous & Woody Developed Vegetation,Tree",15801.82377
+810,HI1101,"Developed-Low Intensity,Developed",1800
+811,HI1117,"1.B Temperate & Boreal Forest & Woodland,Tree",726880.8789
+812,HI1117,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6464.274347
+813,HI1117,"7.B Herbaceous Agricultural Vegetation,Agriculture",13439.33401
+814,HI1117,"7.B Herbaceous Agricultural Vegetation,Herb",1653.873302
+815,HI1117,"7.C Herbaceous & Woody Developed Vegetation,Herb",900
+816,HI1117,"7.C Herbaceous & Woody Developed Vegetation,Tree",576.3427735
+817,HI1117,"Open Water,Water",22627.78264
+818,HI1130,"1.B Temperate & Boreal Forest & Woodland,Tree",445315.0877
+819,HI1130,"2.B Temperate & Boreal Grassland & Shrubland,Herb",42227.17935
+820,HI1130,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",12600
+821,HI1130,"2.C Shrub & Herb Wetland,Herb",1800
+822,HI1130,"7.A Woody Agricultural Vegetation,Tree",13618.23442
+823,HI1130,"7.B Herbaceous Agricultural Vegetation,Agriculture",538.8855005
+824,HI1130,"7.B Herbaceous Agricultural Vegetation,Herb",38111.45966
+825,HI1130,"7.C Herbaceous & Woody Developed Vegetation,Herb",43146.73301
+826,HI1130,"7.C Herbaceous & Woody Developed Vegetation,Shrub",16138.60205
+827,HI1130,"7.C Herbaceous & Woody Developed Vegetation,Tree",132575.9372
+828,HI1130,"Developed-Low Intensity,Developed",3600
+829,HI1130,"Developed-Roads,Developed",17470.3671
+830,HI1130,"Open Water,Water",5400
+831,HI1133,"1.B Temperate & Boreal Forest & Woodland,Tree",609325.0792
+832,HI1133,"2.B Temperate & Boreal Grassland & Shrubland,Herb",42170.41818
+833,HI1133,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2700
+834,HI1133,"2.C Shrub & Herb Wetland,Herb",900
+835,HI1133,"2.C Shrub & Herb Wetland,Tree",616.212885
+836,HI1133,"7.A Woody Agricultural Vegetation,Tree",21294.14063
+837,HI1133,"7.B Herbaceous Agricultural Vegetation,Herb",13144.08742
+838,HI1133,"7.C Herbaceous & Woody Developed Vegetation,Herb",4213.036829
+839,HI1133,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+840,HI1133,"7.C Herbaceous & Woody Developed Vegetation,Tree",18665.25407
+841,HI1133,"Developed-Low Intensity,Developed",7200
+842,HI1133,"Developed-Roads,Developed",14397.36915
+843,HI1133,"Open Water,Water",35216.8876
+844,HI1146,"1.B Temperate & Boreal Forest & Woodland,Tree",635997.7447
+845,HI1146,"2.B Temperate & Boreal Grassland & Shrubland,Herb",7561.762169
+846,HI1146,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",815.3634416
+847,HI1146,"2.C Shrub & Herb Wetland,Herb",900
+848,HI1146,"2.C Shrub & Herb Wetland,Tree",872.8024094
+849,HI1146,"7.B Herbaceous Agricultural Vegetation,Agriculture",564.9575341
+850,HI1146,"7.C Herbaceous & Woody Developed Vegetation,Herb",3635.312055
+851,HI1146,"7.C Herbaceous & Woody Developed Vegetation,Tree",114181.703
+852,HI1146,"Developed-Roads,Developed",3500.287722
+853,HI1146,"Open Water,Water",4159.259807
+854,HI1146,"Recently Disturbed or Modified,Tree",353.2930905
+855,HI1149,"1.B Temperate & Boreal Forest & Woodland,Tree",414280.3766
+856,HI1149,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1060.806996
+857,HI1149,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+858,HI1149,"7.A Woody Agricultural Vegetation,Tree",4500
+859,HI1149,"7.B Herbaceous Agricultural Vegetation,Herb",129744.4756
+860,HI1149,"7.C Herbaceous & Woody Developed Vegetation,Herb",32127.08703
+861,HI1149,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3600
+862,HI1149,"7.C Herbaceous & Woody Developed Vegetation,Tree",150035.1879
+863,HI1149,"Developed-Low Intensity,Developed",7200
+864,HI1149,"Developed-Roads,Developed",29094.55175
+865,HI1162,"1.B Temperate & Boreal Forest & Woodland,Tree",503256.6532
+866,HI1162,"2.B Temperate & Boreal Grassland & Shrubland,Herb",5649.194424
+867,HI1162,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",59.61926509
+868,HI1162,"7.A Woody Agricultural Vegetation,Tree",12427.74654
+869,HI1162,"7.B Herbaceous Agricultural Vegetation,Herb",11304.76797
+870,HI1162,"7.C Herbaceous & Woody Developed Vegetation,Herb",11112.42763
+871,HI1162,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3341.78408
+872,HI1162,"7.C Herbaceous & Woody Developed Vegetation,Tree",208456.5716
+873,HI1162,"Developed-Roads,Developed",16933.7212
+874,HI1165,"1.B Temperate & Boreal Forest & Woodland,Tree",393674.8847
+875,HI1165,"2.B Temperate & Boreal Grassland & Shrubland,Herb",25731.9512
+876,HI1165,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",8453.600704
+877,HI1165,"2.C Shrub & Herb Wetland,Herb",8433.20696
+878,HI1165,"7.A Woody Agricultural Vegetation,Tree",31509.24127
+879,HI1165,"7.B Herbaceous Agricultural Vegetation,Agriculture",1255.682373
+880,HI1165,"7.C Herbaceous & Woody Developed Vegetation,Herb",3733.994214
+881,HI1165,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4500
+882,HI1165,"7.C Herbaceous & Woody Developed Vegetation,Tree",30528.8755
+883,HI1165,"Developed-Low Intensity,Developed",11320.21282
+884,HI1165,"Developed-Roads,Developed",20470.64864
+885,HI1165,"Open Water,Water",232930.1876
+886,HI1181,"1.B Temperate & Boreal Forest & Woodland,Tree",506572.6239
+887,HI1181,"2.B Temperate & Boreal Grassland & Shrubland,Herb",18678.15857
+888,HI1181,"2.C Shrub & Herb Wetland,Herb",10476.34277
+889,HI1181,"7.A Woody Agricultural Vegetation,Tree",19809.40269
+890,HI1181,"7.B Herbaceous Agricultural Vegetation,Herb",2167.601576
+891,HI1181,"7.C Herbaceous & Woody Developed Vegetation,Herb",916.5132474
+892,HI1181,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4679.699998
+893,HI1181,"7.C Herbaceous & Woody Developed Vegetation,Tree",34682.03058
+894,HI1181,"Developed-Low Intensity,Developed",6300
+895,HI1181,"Developed-Roads,Developed",27264.68775
+896,HI1181,"Open Water,Water",140995.4248
+897,HI1194,"1.B Temperate & Boreal Forest & Woodland,Tree",525587.5582
+898,HI1194,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2155.737305
+899,HI1194,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7458.500646
+900,HI1194,"7.B Herbaceous Agricultural Vegetation,Agriculture",39076.60116
+901,HI1194,"7.B Herbaceous Agricultural Vegetation,Herb",36718.48799
+902,HI1194,"7.C Herbaceous & Woody Developed Vegetation,Herb",46602.45551
+903,HI1194,"7.C Herbaceous & Woody Developed Vegetation,Shrub",14670.8355
+904,HI1194,"7.C Herbaceous & Woody Developed Vegetation,Tree",76914.47128
+905,HI1194,"Developed-Low Intensity,Developed",4500
+906,HI1194,"Developed-Medium Intensity,Developed",900
+907,HI1194,"Developed-Roads,Developed",17381.49554
+908,HI1194,"Recently Disturbed or Modified,Tree",576.3427735
+909,HI1197,"1.B Temperate & Boreal Forest & Woodland,Tree",766475.819
+910,HI1197,"7.A Woody Agricultural Vegetation,Tree",5193.256315
+911,HI1197,"7.B Herbaceous Agricultural Vegetation,Herb",749.6916602
+912,HI1197,"7.C Herbaceous & Woody Developed Vegetation,Tree",123.7189832
+913,HU1195,"1.B Temperate & Boreal Forest & Woodland,Tree",187250.5995
+914,HU1195,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1255.682373
+915,HU1195,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7200
+916,HU1195,"7.A Woody Agricultural Vegetation,Tree",6866.05976
+917,HU1195,"7.C Herbaceous & Woody Developed Vegetation,Herb",68986.91179
+918,HU1195,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10421.02775
+919,HU1195,"7.C Herbaceous & Woody Developed Vegetation,Tree",203851.0061
+920,HU1195,"Developed-High Intensity,Developed",3727.057201
+921,HU1195,"Developed-Low Intensity,Developed",76434.57711
+922,HU1195,"Developed-Medium Intensity,Developed",15838.57012
+923,HU1195,"Developed-Roads,Developed",178154.9246
+924,HU1195,"Open Water,Water",12556.06958
+925,MS1003,"1.B Temperate & Boreal Forest & Woodland,Tree",519775.6206
+926,MS1003,"2.B Temperate & Boreal Grassland & Shrubland,Herb",826.9357925
+927,MS1003,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3055.682373
+928,MS1003,"2.C Shrub & Herb Wetland,Herb",5478.54825
+929,MS1003,"7.C Herbaceous & Woody Developed Vegetation,Herb",41883.58196
+930,MS1003,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6118.447376
+931,MS1003,"7.C Herbaceous & Woody Developed Vegetation,Tree",61661.90566
+932,MS1003,"Developed-Low Intensity,Developed",39054.89981
+933,MS1003,"Developed-Medium Intensity,Developed",1102.004229
+934,MS1003,"Developed-Roads,Developed",73392.46097
+935,MS1003,"Open Water,Water",20192.39894
+936,MS1007,"1.B Temperate & Boreal Forest & Woodland,Tree",521684.094
+937,MS1007,"2.B Temperate & Boreal Grassland & Shrubland,Herb",740.8715942
+938,MS1007,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4176.342774
+939,MS1007,"2.C Shrub & Herb Wetland,Herb",2912.458903
+940,MS1007,"7.A Woody Agricultural Vegetation,Tree",2427.722338
+941,MS1007,"7.C Herbaceous & Woody Developed Vegetation,Herb",32290.24766
+942,MS1007,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5705.972234
+943,MS1007,"7.C Herbaceous & Woody Developed Vegetation,Tree",67115.16283
+944,MS1007,"Developed-Low Intensity,Developed",20223.61147
+945,MS1007,"Developed-Medium Intensity,Developed",4501.100404
+946,MS1007,"Developed-Roads,Developed",73045.00017
+947,MS1007,"Open Water,Water",37719.90153
+948,MS1014,"1.B Temperate & Boreal Forest & Woodland,Tree",325440.2672
+949,MS1014,"7.C Herbaceous & Woody Developed Vegetation,Herb",54976.01565
+950,MS1014,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7762.542177
+951,MS1014,"7.C Herbaceous & Woody Developed Vegetation,Tree",59477.62103
+952,MS1014,"Developed-Low Intensity,Developed",128737.5378
+953,MS1014,"Developed-Medium Intensity,Developed",12388.05381
+954,MS1014,"Developed-Roads,Developed",169337.4165
+955,MS1014,"Open Water,Water",14423.03182
+956,MS1019,"1.B Temperate & Boreal Forest & Woodland,Tree",374595.2423
+957,MS1019,"2.B Temperate & Boreal Grassland & Shrubland,Herb",576.3427734
+958,MS1019,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4322.296143
+959,MS1019,"2.C Shrub & Herb Wetland,Shrub",900
+960,MS1019,"2.C Shrub & Herb Wetland,Tree",5235.815644
+961,MS1019,"7.A Woody Agricultural Vegetation,Tree",913.0396982
+962,MS1019,"7.C Herbaceous & Woody Developed Vegetation,Herb",124927.4357
+963,MS1019,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12003.43991
+964,MS1019,"7.C Herbaceous & Woody Developed Vegetation,Tree",86907.76771
+965,MS1019,"Developed-Low Intensity,Developed",74098.70822
+966,MS1019,"Developed-Medium Intensity,Developed",8136.461844
+967,MS1019,"Developed-Roads,Developed",79925.93605
+968,MS1035,"1.B Temperate & Boreal Forest & Woodland,Tree",522842.5478
+969,MS1035,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3765.351831
+970,MS1035,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",10537.40875
+971,MS1035,"2.C Shrub & Herb Wetland,Herb",2700
+972,MS1035,"7.B Herbaceous Agricultural Vegetation,Agriculture",900
+973,MS1035,"7.B Herbaceous Agricultural Vegetation,Herb",7505.859375
+974,MS1035,"7.C Herbaceous & Woody Developed Vegetation,Herb",44597.68011
+975,MS1035,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6837.108828
+976,MS1035,"7.C Herbaceous & Woody Developed Vegetation,Tree",68852.66551
+977,MS1035,"Developed-Low Intensity,Developed",10706.96786
+978,MS1035,"Developed-Medium Intensity,Developed",576.3427734
+979,MS1035,"Developed-Roads,Developed",61371.41166
+980,MS1035,"Open Water,Water",31349.14146
+981,MS1039,"1.B Temperate & Boreal Forest & Woodland,Tree",592355.5367
+982,MS1039,"7.C Herbaceous & Woody Developed Vegetation,Herb",23937.91828
+983,MS1039,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4500
+984,MS1039,"7.C Herbaceous & Woody Developed Vegetation,Tree",86459.82416
+985,MS1039,"Developed-Low Intensity,Developed",15694.95868
+986,MS1039,"Developed-Roads,Developed",35921.3726
+987,MS1039,"Open Water,Water",13672.87547
+988,MS1051,"1.B Temperate & Boreal Forest & Woodland,Tree",519484.6523
+989,MS1051,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3600
+990,MS1051,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+991,MS1051,"7.A Woody Agricultural Vegetation,Tree",12024.19634
+992,MS1051,"7.C Herbaceous & Woody Developed Vegetation,Herb",25297.75187
+993,MS1051,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1602.450817
+994,MS1051,"7.C Herbaceous & Woody Developed Vegetation,Tree",122502.1325
+995,MS1051,"Developed-High Intensity,Developed",1777.091612
+996,MS1051,"Developed-Low Intensity,Developed",17467.54997
+997,MS1051,"Developed-Medium Intensity,Developed",30638.27909
+998,MS1051,"Developed-Roads,Developed",37248.38136
+999,MS1062,"1.B Temperate & Boreal Forest & Woodland,Tree",92981.00095
+1000,MS1062,"2.B Temperate & Boreal Grassland & Shrubland,Herb",17818.65636
+1001,MS1062,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",576.3427734
+1002,MS1062,"2.C Shrub & Herb Wetland,Herb",9068.981284
+1003,MS1062,"7.A Woody Agricultural Vegetation,Tree",2700
+1004,MS1062,"7.C Herbaceous & Woody Developed Vegetation,Herb",142828.509
+1005,MS1062,"7.C Herbaceous & Woody Developed Vegetation,Shrub",22975.03889
+1006,MS1062,"7.C Herbaceous & Woody Developed Vegetation,Tree",82307.19315
+1007,MS1062,"Developed-High Intensity,Developed",3897.903297
+1008,MS1062,"Developed-Low Intensity,Developed",122265.3091
+1009,MS1062,"Developed-Medium Intensity,Developed",15121.15138
+1010,MS1062,"Developed-Roads,Developed",201910.84
+1011,MS1062,"Open Water,Water",58091.55972
+1012,MS1067,"1.B Temperate & Boreal Forest & Woodland,Tree",280758.8045
+1013,MS1067,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6590.597875
+1014,MS1067,"2.C Shrub & Herb Wetland,Herb",1856.919301
+1015,MS1067,"7.C Herbaceous & Woody Developed Vegetation,Herb",73229.85129
+1016,MS1067,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11170.92146
+1017,MS1067,"7.C Herbaceous & Woody Developed Vegetation,Tree",138014.3928
+1018,MS1067,"Developed-Low Intensity,Developed",115351.5228
+1019,MS1067,"Developed-Medium Intensity,Developed",5851.706541
+1020,MS1067,"Developed-Roads,Developed",111314.7554
+1021,MS1067,"Open Water,Water",28403.01396
+1022,MS1071,"1.B Temperate & Boreal Forest & Woodland,Tree",405048.8954
+1023,MS1071,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3276.342773
+1024,MS1071,"7.C Herbaceous & Woody Developed Vegetation,Herb",39150.28238
+1025,MS1071,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6055.22461
+1026,MS1071,"7.C Herbaceous & Woody Developed Vegetation,Tree",151391.046
+1027,MS1071,"Developed-Low Intensity,Developed",26993.13012
+1028,MS1071,"Developed-Medium Intensity,Developed",928.3748717
+1029,MS1071,"Developed-Roads,Developed",79505.0443
+1030,MS1071,"Open Water,Water",60194.14542
+1031,MS1083,"1.B Temperate & Boreal Forest & Woodland,Tree",469188.014
+1032,MS1083,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3600
+1033,MS1083,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1034,MS1083,"2.C Shrub & Herb Wetland,Tree",4721.191377
+1035,MS1083,"7.A Woody Agricultural Vegetation,Tree",585.610404
+1036,MS1083,"7.C Herbaceous & Woody Developed Vegetation,Herb",54419.75204
+1037,MS1083,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6876.357303
+1038,MS1083,"7.C Herbaceous & Woody Developed Vegetation,Tree",88672.50743
+1039,MS1083,"Developed-Low Intensity,Developed",44253.73465
+1040,MS1083,"Developed-Medium Intensity,Developed",39654.65974
+1041,MS1083,"Developed-Roads,Developed",59670.65898
+1042,MS1087,"1.B Temperate & Boreal Forest & Woodland,Tree",715740.8802
+1043,MS1087,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2500.334874
+1044,MS1087,"2.C Shrub & Herb Wetland,Herb",9126.041869
+1045,MS1087,"2.C Shrub & Herb Wetland,Shrub",1800
+1046,MS1087,"2.C Shrub & Herb Wetland,Tree",2316.652544
+1047,MS1087,"7.A Woody Agricultural Vegetation,Tree",3059.91856
+1048,MS1087,"7.C Herbaceous & Woody Developed Vegetation,Herb",7374.531975
+1049,MS1087,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1800
+1050,MS1087,"7.C Herbaceous & Woody Developed Vegetation,Tree",1230.736265
+1051,MS1087,"Developed-Low Intensity,Developed",5071.884051
+1052,MS1087,"Developed-Roads,Developed",11113.0827
+1053,MS1087,"Open Water,Water",11408.42285
+1054,MS1099,"1.B Temperate & Boreal Forest & Woodland,Tree",76968.71288
+1055,MS1099,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1476.342773
+1056,MS1099,"7.C Herbaceous & Woody Developed Vegetation,Herb",36686.07351
+1057,MS1099,"7.C Herbaceous & Woody Developed Vegetation,Shrub",14579.9745
+1058,MS1099,"7.C Herbaceous & Woody Developed Vegetation,Tree",155020.2567
+1059,MS1099,"Developed-High Intensity,Developed",120706.3693
+1060,MS1099,"Developed-Low Intensity,Developed",119025.8519
+1061,MS1099,"Developed-Medium Intensity,Developed",124085.8757
+1062,MS1099,"Developed-Roads,Developed",123093.0287
+1063,MS1099,"Recently Disturbed or Modified,Tree",900
+1064,MS1103,"1.B Temperate & Boreal Forest & Woodland,Tree",478166.1694
+1065,MS1103,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3930.697382
+1066,MS1103,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2700
+1067,MS1103,"2.C Shrub & Herb Wetland,Herb",11537.01241
+1068,MS1103,"2.C Shrub & Herb Wetland,Shrub",1800
+1069,MS1103,"2.C Shrub & Herb Wetland,Tree",3408.563232
+1070,MS1103,"7.C Herbaceous & Woody Developed Vegetation,Herb",43589.45093
+1071,MS1103,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10152.68555
+1072,MS1103,"7.C Herbaceous & Woody Developed Vegetation,Tree",125542.3741
+1073,MS1103,"Developed-Low Intensity,Developed",41354.05572
+1074,MS1103,"Developed-Medium Intensity,Developed",2500.048547
+1075,MS1103,"Developed-Roads,Developed",36945.57046
+1076,MS1103,"Open Water,Water",10915.8582
+1077,MS1115,"1.B Temperate & Boreal Forest & Woodland,Tree",443767.7491
+1078,MS1115,"2.B Temperate & Boreal Grassland & Shrubland,Herb",5976.342773
+1079,MS1115,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",616.3379717
+1080,MS1115,"2.C Shrub & Herb Wetland,Herb",19656.81642
+1081,MS1115,"2.C Shrub & Herb Wetland,Shrub",2682.052742
+1082,MS1115,"7.C Herbaceous & Woody Developed Vegetation,Herb",20811.85839
+1083,MS1115,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6799.879679
+1084,MS1115,"7.C Herbaceous & Woody Developed Vegetation,Tree",50934.95217
+1085,MS1115,"Developed-High Intensity,Developed",18379.06567
+1086,MS1115,"Developed-Low Intensity,Developed",30896.98482
+1087,MS1115,"Developed-Medium Intensity,Developed",59560.23357
+1088,MS1115,"Developed-Roads,Developed",62299.16376
+1089,MS1115,"Open Water,Water",49261.04888
+1090,MS1115,"Recently Disturbed or Modified,Tree",900
+1091,MS1126,"1.B Temperate & Boreal Forest & Woodland,Tree",470310.4414
+1092,MS1126,"2.B Temperate & Boreal Grassland & Shrubland,Herb",329.0405527
+1093,MS1126,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3055.682373
+1094,MS1126,"2.C Shrub & Herb Wetland,Herb",1260.802223
+1095,MS1126,"7.C Herbaceous & Woody Developed Vegetation,Herb",80951.37206
+1096,MS1126,"7.C Herbaceous & Woody Developed Vegetation,Shrub",15057.367
+1097,MS1126,"7.C Herbaceous & Woody Developed Vegetation,Tree",101638.1217
+1098,MS1126,"Developed-High Intensity,Developed",1255.682373
+1099,MS1126,"Developed-Low Intensity,Developed",32250.13292
+1100,MS1126,"Developed-Medium Intensity,Developed",13633.75854
+1101,MS1126,"Developed-Roads,Developed",52800.08483
+1102,MS1131,"1.B Temperate & Boreal Forest & Woodland,Shrub",798.37198
+1103,MS1131,"1.B Temperate & Boreal Forest & Woodland,Tree",361438.878
+1104,MS1131,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2700
+1105,MS1131,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7200
+1106,MS1131,"2.C Shrub & Herb Wetland,Herb",1169.105971
+1107,MS1131,"7.A Woody Agricultural Vegetation,Tree",1800
+1108,MS1131,"7.C Herbaceous & Woody Developed Vegetation,Herb",35446.81901
+1109,MS1131,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5071.789121
+1110,MS1131,"7.C Herbaceous & Woody Developed Vegetation,Tree",140506.3939
+1111,MS1131,"Developed-High Intensity,Developed",5393.349653
+1112,MS1131,"Developed-Low Intensity,Developed",51419.59241
+1113,MS1131,"Developed-Medium Intensity,Developed",23522.34944
+1114,MS1131,"Developed-Roads,Developed",82131.48064
+1115,MS1131,"Open Water,Water",53944.35582
+1116,MS1135,"1.B Temperate & Boreal Forest & Woodland,Tree",682715.2598
+1117,MS1135,"7.A Woody Agricultural Vegetation,Tree",7749.843912
+1118,MS1135,"7.C Herbaceous & Woody Developed Vegetation,Herb",7662.872492
+1119,MS1135,"7.C Herbaceous & Woody Developed Vegetation,Tree",20943.75417
+1120,MS1135,"Developed-Roads,Developed",23306.11255
+1121,MS1135,"Open Water,Water",30164.64305
+1122,MS1147,"1.B Temperate & Boreal Forest & Woodland,Tree",765004.0729
+1123,MS1147,"2.C Shrub & Herb Wetland,Tree",70.45987987
+1124,MS1147,"7.C Herbaceous & Woody Developed Vegetation,Tree",44.00354862
+1125,MS1147,"Developed-Roads,Developed",7423.949561
+1126,MS1151,"1.B Temperate & Boreal Forest & Woodland,Tree",682394.1859
+1127,MS1151,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1128,MS1151,"2.C Shrub & Herb Wetland,Tree",712.6852528
+1129,MS1151,"7.A Woody Agricultural Vegetation,Tree",1845.077939
+1130,MS1151,"7.C Herbaceous & Woody Developed Vegetation,Herb",3594.646682
+1131,MS1151,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5282.616192
+1132,MS1151,"7.C Herbaceous & Woody Developed Vegetation,Tree",39758.96147
+1133,MS1151,"Developed-Low Intensity,Developed",13856.6112
+1134,MS1151,"Developed-Roads,Developed",23297.70129
+1135,MS1163,"1.B Temperate & Boreal Forest & Woodland,Tree",348206.2933
+1136,MS1163,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3183.014209
+1137,MS1163,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",9576.342774
+1138,MS1163,"7.A Woody Agricultural Vegetation,Tree",12155.80602
+1139,MS1163,"7.C Herbaceous & Woody Developed Vegetation,Herb",37460.99596
+1140,MS1163,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8676.342774
+1141,MS1163,"7.C Herbaceous & Woody Developed Vegetation,Tree",91129.20073
+1142,MS1163,"Developed-High Intensity,Developed",22955.71501
+1143,MS1163,"Developed-Low Intensity,Developed",36340.52457
+1144,MS1163,"Developed-Medium Intensity,Developed",38248.79273
+1145,MS1163,"Developed-Roads,Developed",98676.6456
+1146,MS1163,"Open Water,Water",65932.81226
+1147,MS1167,"1.B Temperate & Boreal Forest & Woodland,Tree",421872.9718
+1148,MS1167,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1149,MS1167,"2.C Shrub & Herb Wetland,Tree",1736.601146
+1150,MS1167,"7.A Woody Agricultural Vegetation,Tree",1845.077939
+1151,MS1167,"7.C Herbaceous & Woody Developed Vegetation,Herb",98047.76258
+1152,MS1167,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10343.9899
+1153,MS1167,"7.C Herbaceous & Woody Developed Vegetation,Tree",56464.60803
+1154,MS1167,"Developed-Low Intensity,Developed",88683.92653
+1155,MS1167,"Developed-Medium Intensity,Developed",2431.44461
+1156,MS1167,"Developed-Roads,Developed",90216.1034
+1157,MS1179,"1.B Temperate & Boreal Forest & Woodland,Tree",329873.5858
+1158,MS1179,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2700
+1159,MS1179,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3211.412327
+1160,MS1179,"2.C Shrub & Herb Wetland,Shrub",2568.456065
+1161,MS1179,"7.C Herbaceous & Woody Developed Vegetation,Herb",117767.0968
+1162,MS1179,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7892.263004
+1163,MS1179,"7.C Herbaceous & Woody Developed Vegetation,Tree",98147.27346
+1164,MS1179,"Developed-Low Intensity,Developed",57569.15224
+1165,MS1179,"Developed-Medium Intensity,Developed",33180.69845
+1166,MS1179,"Developed-Roads,Developed",88556.62465
+1167,MS1179,"Open Water,Water",31075.92317
+1168,MS1190,"1.B Temperate & Boreal Forest & Woodland,Shrub",1800
+1169,MS1190,"1.B Temperate & Boreal Forest & Woodland,Tree",395214.9187
+1170,MS1190,"2.B Temperate & Boreal Grassland & Shrubland,Herb",11749.24163
+1171,MS1190,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2952.685547
+1172,MS1190,"2.C Shrub & Herb Wetland,Herb",7466.967774
+1173,MS1190,"2.C Shrub & Herb Wetland,Shrub",2376.342773
+1174,MS1190,"7.C Herbaceous & Woody Developed Vegetation,Herb",43396.39331
+1175,MS1190,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11083.69611
+1176,MS1190,"7.C Herbaceous & Woody Developed Vegetation,Tree",167790.925
+1177,MS1190,"Developed-Low Intensity,Developed",22648.47087
+1178,MS1190,"Developed-Roads,Developed",74374.44001
+1179,MS1190,"Open Water,Water",31688.40426
+1180,MS1199,"1.B Temperate & Boreal Forest & Woodland,Tree",701914.963
+1181,MS1199,"2.C Shrub & Herb Wetland,Herb",2823.997364
+1182,MS1199,"7.C Herbaceous & Woody Developed Vegetation,Herb",4828.39256
+1183,MS1199,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3600
+1184,MS1199,"7.C Herbaceous & Woody Developed Vegetation,Tree",33514.89995
+1185,MS1199,"Developed-Low Intensity,Developed",8086.903857
+1186,MS1199,"Developed-Roads,Developed",17773.32919
+1187,NC1001,"1.B Temperate & Boreal Forest & Woodland,Tree",43981.65853
+1188,NC1001,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2415.948569
+1189,NC1001,"7.C Herbaceous & Woody Developed Vegetation,Herb",285959.9974
+1190,NC1001,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17432.14159
+1191,NC1001,"7.C Herbaceous & Woody Developed Vegetation,Tree",282614.6244
+1192,NC1001,"Developed-Low Intensity,Developed",72967.76017
+1193,NC1001,"Developed-Medium Intensity,Developed",11687.58545
+1194,NC1001,"Developed-Roads,Developed",55482.76979
+1195,NC1012,"1.B Temperate & Boreal Forest & Woodland,Tree",661915.7739
+1196,NC1012,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9959.10903
+1197,NC1012,"7.A Woody Agricultural Vegetation,Tree",1808.763367
+1198,NC1012,"7.C Herbaceous & Woody Developed Vegetation,Herb",3569.499631
+1199,NC1012,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1476.342773
+1200,NC1012,"7.C Herbaceous & Woody Developed Vegetation,Tree",25684.36291
+1201,NC1012,"Developed-Low Intensity,Developed",899.9999999
+1202,NC1012,"Developed-Roads,Developed",67216.97725
+1203,NC1012,"Open Water,Water",11.65709576
+1204,NC1017,"1.B Temperate & Boreal Forest & Woodland,Tree",611369.2841
+1205,NC1017,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1300.703051
+1206,NC1017,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1207,NC1017,"7.A Woody Agricultural Vegetation,Tree",16068.44064
+1208,NC1017,"7.B Herbaceous Agricultural Vegetation,Herb",10258.9473
+1209,NC1017,"7.C Herbaceous & Woody Developed Vegetation,Herb",3985.905276
+1210,NC1017,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1800
+1211,NC1017,"7.C Herbaceous & Woody Developed Vegetation,Tree",56019.14119
+1212,NC1017,"Developed-High Intensity,Developed",1800
+1213,NC1017,"Developed-Low Intensity,Developed",33176.27812
+1214,NC1017,"Developed-Medium Intensity,Developed",6324.554443
+1215,NC1017,"Developed-Roads,Developed",28639.23177
+1216,NC1028,"1.B Temperate & Boreal Forest & Woodland,Tree",455674.0451
+1217,NC1028,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1218,NC1028,"7.C Herbaceous & Woody Developed Vegetation,Herb",35118.64069
+1219,NC1028,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6452.441126
+1220,NC1028,"7.C Herbaceous & Woody Developed Vegetation,Tree",93655.9806
+1221,NC1028,"Developed-Low Intensity,Developed",96750.40489
+1222,NC1028,"Developed-Medium Intensity,Developed",2.688971215
+1223,NC1028,"Developed-Roads,Developed",83088.28457
+1224,NC1033,"1.B Temperate & Boreal Forest & Woodland,Tree",633954.8801
+1225,NC1033,"2.B Temperate & Boreal Grassland & Shrubland,Herb",12195.98182
+1226,NC1033,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3600
+1227,NC1033,"2.C Shrub & Herb Wetland,Herb",900
+1228,NC1033,"7.A Woody Agricultural Vegetation,Tree",4194.212613
+1229,NC1033,"7.C Herbaceous & Woody Developed Vegetation,Herb",29649.46175
+1230,NC1033,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+1231,NC1033,"7.C Herbaceous & Woody Developed Vegetation,Tree",37289.52952
+1232,NC1033,"Developed-Low Intensity,Developed",18877.39389
+1233,NC1033,"Developed-Medium Intensity,Developed",899.9999999
+1234,NC1033,"Developed-Roads,Developed",30081.02623
+1235,NC1040,"1.B Temperate & Boreal Forest & Woodland,Tree",367408.225
+1236,NC1040,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2376.342774
+1237,NC1040,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1238,NC1040,"2.C Shrub & Herb Wetland,Tree",1476.342773
+1239,NC1040,"7.A Woody Agricultural Vegetation,Tree",12902.08385
+1240,NC1040,"7.B Herbaceous Agricultural Vegetation,Herb",10258.9473
+1241,NC1040,"7.C Herbaceous & Woody Developed Vegetation,Herb",46662.46362
+1242,NC1040,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7403.334141
+1243,NC1040,"7.C Herbaceous & Woody Developed Vegetation,Tree",139334.6816
+1244,NC1040,"Developed-High Intensity,Developed",1800
+1245,NC1040,"Developed-Low Intensity,Developed",95423.02575
+1246,NC1040,"Developed-Medium Intensity,Developed",6324.554443
+1247,NC1040,"Developed-Roads,Developed",79372.48465
+1248,NC1044,"1.B Temperate & Boreal Forest & Woodland,Tree",473299.0183
+1249,NC1044,"2.C Shrub & Herb Wetland,Herb",28010.53662
+1250,NC1044,"2.C Shrub & Herb Wetland,Tree",900
+1251,NC1044,"7.A Woody Agricultural Vegetation,Tree",14098.59358
+1252,NC1044,"7.C Herbaceous & Woody Developed Vegetation,Herb",2700
+1253,NC1044,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+1254,NC1044,"7.C Herbaceous & Woody Developed Vegetation,Tree",150066.5485
+1255,NC1044,"Developed-Low Intensity,Developed",10371.06253
+1256,NC1044,"Developed-Roads,Developed",48405.77235
+1257,NC1044,"Open Water,Water",43790.95403
+1258,NC1049,"1.B Temperate & Boreal Forest & Woodland,Tree",73438.89603
+1259,NC1049,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4345.3125
+1260,NC1049,"7.C Herbaceous & Woody Developed Vegetation,Herb",259710.7985
+1261,NC1049,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18068.18532
+1262,NC1049,"7.C Herbaceous & Woody Developed Vegetation,Tree",235749.2884
+1263,NC1049,"Developed-High Intensity,Developed",11374.28344
+1264,NC1049,"Developed-Low Intensity,Developed",86167.57277
+1265,NC1049,"Developed-Medium Intensity,Developed",28308.55268
+1266,NC1049,"Developed-Roads,Developed",55379.59632
+1267,NC1056,"1.B Temperate & Boreal Forest & Woodland,Tree",196934.7841
+1268,NC1056,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3600
+1269,NC1056,"2.C Shrub & Herb Wetland,Herb",1800
+1270,NC1056,"7.A Woody Agricultural Vegetation,Tree",900
+1271,NC1056,"7.C Herbaceous & Woody Developed Vegetation,Herb",42920.48267
+1272,NC1056,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10020.25246
+1273,NC1056,"7.C Herbaceous & Woody Developed Vegetation,Tree",353420.3702
+1274,NC1056,"Developed-Low Intensity,Developed",43252.10808
+1275,NC1056,"Developed-Medium Intensity,Developed",4604.131826
+1276,NC1056,"Developed-Roads,Developed",76286.03453
+1277,NC1056,"Open Water,Water",38804.32206
+1278,NC1065,"1.B Temperate & Boreal Forest & Woodland,Tree",536136.3962
+1279,NC1065,"2.B Temperate & Boreal Grassland & Shrubland,Herb",31267.62735
+1280,NC1065,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4895.761872
+1281,NC1065,"7.A Woody Agricultural Vegetation,Tree",1643.729349
+1282,NC1065,"7.B Herbaceous Agricultural Vegetation,Herb",900
+1283,NC1065,"7.C Herbaceous & Woody Developed Vegetation,Herb",26266.10859
+1284,NC1065,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7776.342773
+1285,NC1065,"7.C Herbaceous & Woody Developed Vegetation,Tree",58196.60012
+1286,NC1065,"Developed-Low Intensity,Developed",13046.29641
+1287,NC1065,"Developed-Roads,Developed",83501.60129
+1288,NC1065,"Open Water,Water",8912.021989
+1289,NC1076,"1.B Temperate & Boreal Forest & Woodland,Tree",583253.131
+1290,NC1076,"2.B Temperate & Boreal Grassland & Shrubland,Herb",27173.57439
+1291,NC1076,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1292,NC1076,"2.C Shrub & Herb Wetland,Herb",900
+1293,NC1076,"7.A Woody Agricultural Vegetation,Tree",5940.019731
+1294,NC1076,"7.C Herbaceous & Woody Developed Vegetation,Herb",6663.807176
+1295,NC1076,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3255.17257
+1296,NC1076,"7.C Herbaceous & Woody Developed Vegetation,Tree",39068.49163
+1297,NC1076,"Developed-Low Intensity,Developed",2700
+1298,NC1076,"Developed-Roads,Developed",91231.80722
+1299,NC1076,"Open Water,Water",10556.48224
+1300,NC1081,"1.B Temperate & Boreal Forest & Woodland,Tree",685167.4633
+1301,NC1081,"2.B Temperate & Boreal Grassland & Shrubland,Herb",79.55605338
+1302,NC1081,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1685.598214
+1303,NC1081,"7.A Woody Agricultural Vegetation,Tree",16010.23702
+1304,NC1081,"7.B Herbaceous Agricultural Vegetation,Herb",10258.9473
+1305,NC1081,"7.C Herbaceous & Woody Developed Vegetation,Herb",71.68289241
+1306,NC1081,"7.C Herbaceous & Woody Developed Vegetation,Tree",28800
+1307,NC1081,"Developed-Low Intensity,Developed",4132.694924
+1308,NC1081,"Developed-Medium Intensity,Developed",900
+1309,NC1081,"Developed-Roads,Developed",25436.30622
+1310,NC1092,"1.B Temperate & Boreal Forest & Woodland,Tree",661104.147
+1311,NC1092,"2.B Temperate & Boreal Grassland & Shrubland,Herb",679.6062759
+1312,NC1092,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",6972.037075
+1313,NC1092,"7.C Herbaceous & Woody Developed Vegetation,Herb",6773.376555
+1314,NC1092,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+1315,NC1092,"7.C Herbaceous & Woody Developed Vegetation,Tree",31198.23646
+1316,NC1092,"Developed-Low Intensity,Developed",21952.28448
+1317,NC1092,"Developed-Roads,Developed",41162.79811
+1318,NC1097,"1.B Temperate & Boreal Forest & Woodland,Tree",615071.8641
+1319,NC1097,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9000
+1320,NC1097,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3318.598938
+1321,NC1097,"2.C Shrub & Herb Wetland,Herb",1800
+1322,NC1097,"7.A Woody Agricultural Vegetation,Tree",7188.024714
+1323,NC1097,"7.B Herbaceous Agricultural Vegetation,Herb",1214.868439
+1324,NC1097,"7.C Herbaceous & Woody Developed Vegetation,Herb",6176.823649
+1325,NC1097,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7592.006085
+1326,NC1097,"7.C Herbaceous & Woody Developed Vegetation,Tree",76679.78017
+1327,NC1097,"Developed-Low Intensity,Developed",14959.72616
+1328,NC1097,"Developed-Medium Intensity,Developed",1800
+1329,NC1097,"Developed-Roads,Developed",27740.79367
+1330,NC1100,"1.B Temperate & Boreal Forest & Woodland,Tree",272882.125
+1331,NC1100,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3914.817417
+1332,NC1100,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",37.55611785
+1333,NC1100,"2.C Shrub & Herb Wetland,Herb",4500
+1334,NC1100,"2.C Shrub & Herb Wetland,Tree",3149.82888
+1335,NC1100,"7.A Woody Agricultural Vegetation,Tree",6542.770386
+1336,NC1100,"7.C Herbaceous & Woody Developed Vegetation,Herb",122621.8258
+1337,NC1100,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17617.65888
+1338,NC1100,"7.C Herbaceous & Woody Developed Vegetation,Tree",94128.31573
+1339,NC1100,"Developed-High Intensity,Developed",13045.80038
+1340,NC1100,"Developed-Low Intensity,Developed",140981.3295
+1341,NC1100,"Developed-Medium Intensity,Developed",40152.02451
+1342,NC1100,"Developed-Roads,Developed",46668.43336
+1343,NC1100,"Open Water,Water",6300
+1344,NC1104,"1.B Temperate & Boreal Forest & Woodland,Tree",440196.6853
+1345,NC1104,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3611.123657
+1346,NC1104,"2.C Shrub & Herb Wetland,Herb",3600
+1347,NC1104,"7.A Woody Agricultural Vegetation,Tree",576.3427734
+1348,NC1104,"7.B Herbaceous Agricultural Vegetation,Agriculture",1800
+1349,NC1104,"7.C Herbaceous & Woody Developed Vegetation,Herb",9223.740332
+1350,NC1104,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8063.27624
+1351,NC1104,"7.C Herbaceous & Woody Developed Vegetation,Tree",165228.5462
+1352,NC1104,"Developed-Low Intensity,Developed",38956.69208
+1353,NC1104,"Developed-Medium Intensity,Developed",4175.886439
+1354,NC1104,"Developed-Roads,Developed",61378.67407
+1355,NC1104,"Open Water,Water",35731.51888
+1356,NC1113,"1.B Temperate & Boreal Forest & Woodland,Tree",551526.9939
+1357,NC1113,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1800.681221
+1358,NC1113,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2412.136951
+1359,NC1113,"7.C Herbaceous & Woody Developed Vegetation,Herb",82266.33229
+1360,NC1113,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11560.7403
+1361,NC1113,"7.C Herbaceous & Woody Developed Vegetation,Tree",45573.62372
+1362,NC1113,"Developed-Low Intensity,Developed",36399.78386
+1363,NC1113,"Developed-Medium Intensity,Developed",899.9999999
+1364,NC1113,"Developed-Roads,Developed",40102.19367
+1365,NC1120,"1.B Temperate & Boreal Forest & Woodland,Tree",546686.7263
+1366,NC1120,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4814.817417
+1367,NC1120,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7200
+1368,NC1120,"2.C Shrub & Herb Wetland,Herb",4500
+1369,NC1120,"2.C Shrub & Herb Wetland,Tree",3149.82888
+1370,NC1120,"7.A Woody Agricultural Vegetation,Tree",6542.770386
+1371,NC1120,"7.C Herbaceous & Woody Developed Vegetation,Herb",25391.73248
+1372,NC1120,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4767.333028
+1373,NC1120,"7.C Herbaceous & Woody Developed Vegetation,Tree",66603.01995
+1374,NC1120,"Developed-Low Intensity,Developed",36200.87122
+1375,NC1120,"Developed-Medium Intensity,Developed",4803.438021
+1376,NC1120,"Developed-Roads,Developed",55581.94824
+1377,NC1120,"Open Water,Water",6300
+1378,NC1129,"1.B Temperate & Boreal Forest & Woodland,Tree",695678.4852
+1379,NC1129,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2524.774175
+1380,NC1129,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2558.445343
+1381,NC1129,"7.C Herbaceous & Woody Developed Vegetation,Herb",15143.59444
+1382,NC1129,"7.C Herbaceous & Woody Developed Vegetation,Shrub",531.8997481
+1383,NC1129,"7.C Herbaceous & Woody Developed Vegetation,Tree",27824.48126
+1384,NC1129,"Developed-Low Intensity,Developed",16296.52528
+1385,NC1129,"Developed-Medium Intensity,Developed",900
+1386,NC1129,"Developed-Roads,Developed",11084.2805
+1387,NC1140,"1.B Temperate & Boreal Forest & Woodland,Tree",704065.8743
+1388,NC1140,"7.C Herbaceous & Woody Developed Vegetation,Herb",808.9405952
+1389,NC1140,"7.C Herbaceous & Woody Developed Vegetation,Shrub",31.78577504
+1390,NC1140,"7.C Herbaceous & Woody Developed Vegetation,Tree",31304.28625
+1391,NC1140,"Developed-Low Intensity,Developed",1320.147814
+1392,NC1140,"Developed-Roads,Developed",35011.45119
+1393,NC1145,"1.B Temperate & Boreal Forest & Woodland,Tree",721072.1496
+1394,NC1145,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1800
+1395,NC1145,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2412.136951
+1396,NC1145,"7.C Herbaceous & Woody Developed Vegetation,Herb",3579.617341
+1397,NC1145,"7.C Herbaceous & Woody Developed Vegetation,Tree",28054.09867
+1398,NC1145,"Developed-Low Intensity,Developed",112.5862549
+1399,NC1145,"Developed-Roads,Developed",15511.89714
+1400,NC1156,"1.B Temperate & Boreal Forest & Woodland,Tree",474808.7706
+1401,NC1156,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6268.461309
+1402,NC1156,"2.C Shrub & Herb Wetland,Herb",10186.57403
+1403,NC1156,"7.C Herbaceous & Woody Developed Vegetation,Herb",19542.58575
+1404,NC1156,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4053.381534
+1405,NC1156,"7.C Herbaceous & Woody Developed Vegetation,Tree",133980.7092
+1406,NC1156,"Developed-Low Intensity,Developed",30421.71936
+1407,NC1156,"Developed-Medium Intensity,Developed",2378.956753
+1408,NC1156,"Developed-Roads,Developed",40921.04267
+1409,NC1156,"Open Water,Water",49980.28473
+1410,NC1161,"1.B Temperate & Boreal Forest & Woodland,Tree",423121.0512
+1411,NC1161,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9000
+1412,NC1161,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3318.598938
+1413,NC1161,"2.C Shrub & Herb Wetland,Herb",1800
+1414,NC1161,"7.A Woody Agricultural Vegetation,Tree",7462.834479
+1415,NC1161,"7.B Herbaceous Agricultural Vegetation,Herb",1214.868439
+1416,NC1161,"7.C Herbaceous & Woody Developed Vegetation,Herb",85655.694
+1417,NC1161,"7.C Herbaceous & Woody Developed Vegetation,Shrub",18619.325
+1418,NC1161,"7.C Herbaceous & Woody Developed Vegetation,Tree",111657.3288
+1419,NC1161,"Developed-High Intensity,Developed",8.635139194
+1420,NC1161,"Developed-Low Intensity,Developed",49017.38647
+1421,NC1161,"Developed-Medium Intensity,Developed",2316.632873
+1422,NC1161,"Developed-Roads,Developed",59350.13063
+1423,NC1168,"1.B Temperate & Boreal Forest & Woodland,Tree",419224.4648
+1424,NC1168,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4068.925106
+1425,NC1168,"2.C Shrub & Herb Wetland,Herb",3600
+1426,NC1168,"7.A Woody Agricultural Vegetation,Tree",4005.047552
+1427,NC1168,"7.C Herbaceous & Woody Developed Vegetation,Herb",25848.45148
+1428,NC1168,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10321.66663
+1429,NC1168,"7.C Herbaceous & Woody Developed Vegetation,Tree",143968.4389
+1430,NC1168,"Developed-Low Intensity,Developed",41132.43885
+1431,NC1168,"Developed-Medium Intensity,Developed",5076.342773
+1432,NC1168,"Developed-Roads,Developed",80351.44153
+1433,NC1168,"Open Water,Water",34945.26832
+1434,NC1177,"1.B Temperate & Boreal Forest & Woodland,Tree",333045.0695
+1435,NC1177,"2.B Temperate & Boreal Grassland & Shrubland,Herb",25370.98568
+1436,NC1177,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3196.712025
+1437,NC1177,"7.A Woody Agricultural Vegetation,Tree",7520.230635
+1438,NC1177,"7.B Herbaceous Agricultural Vegetation,Herb",900
+1439,NC1177,"7.C Herbaceous & Woody Developed Vegetation,Herb",24710.92741
+1440,NC1177,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10002.41596
+1441,NC1177,"7.C Herbaceous & Woody Developed Vegetation,Tree",232782.2869
+1442,NC1177,"Developed-Low Intensity,Developed",12417.04638
+1443,NC1177,"Developed-Roads,Developed",74867.06739
+1444,NC1177,"Open Water,Water",46555.01069
+1445,NC1177,Quarries-Strip Mines-Gravel Pits-Energy Developme*,1174.733347
+1446,NC1184,"1.B Temperate & Boreal Forest & Woodland,Tree",437617.0705
+1447,NC1184,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2376.342774
+1448,NC1184,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1449,NC1184,"2.C Shrub & Herb Wetland,Tree",1476.342773
+1450,NC1184,"7.A Woody Agricultural Vegetation,Tree",6262.419408
+1451,NC1184,"7.B Herbaceous Agricultural Vegetation,Herb",9262.435416
+1452,NC1184,"7.C Herbaceous & Woody Developed Vegetation,Herb",53863.76331
+1453,NC1184,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6332.080078
+1454,NC1184,"7.C Herbaceous & Woody Developed Vegetation,Tree",87053.05415
+1455,NC1184,"Developed-High Intensity,Developed",1800
+1456,NC1184,"Developed-Low Intensity,Developed",78843.69413
+1457,NC1184,"Developed-Medium Intensity,Developed",6324.554443
+1458,NC1184,"Developed-Roads,Developed",79530.72893
+1459,NC1193,"1.B Temperate & Boreal Forest & Woodland,Tree",534155.2245
+1460,NC1193,"2.B Temperate & Boreal Grassland & Shrubland,Herb",11613.34841
+1461,NC1193,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4572.104645
+1462,NC1193,"7.C Herbaceous & Woody Developed Vegetation,Herb",45044.49801
+1463,NC1193,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6300
+1464,NC1193,"7.C Herbaceous & Woody Developed Vegetation,Tree",84579.86467
+1465,NC1193,"Developed-Low Intensity,Developed",24178.89633
+1466,NC1193,"Developed-Medium Intensity,Developed",900
+1467,NC1193,"Developed-Roads,Developed",37925.24495
+1468,NC1193,"Open Water,Water",21059.7456
+1469,NC1193,Quarries-Strip Mines-Gravel Pits-Energy Developme*,2213.55884
+1470,OE1052,"1.B Temperate & Boreal Forest & Woodland,Tree",32858.93113
+1471,OE1052,"2.B Temperate & Boreal Grassland & Shrubland,Herb",61716.88115
+1472,OE1052,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",15260.81992
+1473,OE1052,"2.C Shrub & Herb Wetland,Herb",4500
+1474,OE1052,"7.A Woody Agricultural Vegetation,Tree",1800
+1475,OE1052,"7.C Herbaceous & Woody Developed Vegetation,Herb",59853.2994
+1476,OE1052,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6503.531195
+1477,OE1052,"7.C Herbaceous & Woody Developed Vegetation,Tree",4958.425111
+1478,OE1052,"Developed-High Intensity,Developed",56170.00817
+1479,OE1052,"Developed-Low Intensity,Developed",154124.2516
+1480,OE1052,"Developed-Medium Intensity,Developed",169628.3103
+1481,OE1052,"Developed-Roads,Developed",135017.6513
+1482,OE1052,"Open Water,Water",70150.37666
+1483,OE1116,"1.B Temperate & Boreal Forest & Woodland,Tree",282512.5003
+1484,OE1116,"2.B Temperate & Boreal Grassland & Shrubland,Herb",55667.58221
+1485,OE1116,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7767.218282
+1486,OE1116,"2.C Shrub & Herb Wetland,Herb",9741.147086
+1487,OE1116,"2.C Shrub & Herb Wetland,Shrub",900
+1488,OE1116,"7.A Woody Agricultural Vegetation,Tree",9539.526945
+1489,OE1116,"7.C Herbaceous & Woody Developed Vegetation,Herb",39521.6555
+1490,OE1116,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4106.553796
+1491,OE1116,"7.C Herbaceous & Woody Developed Vegetation,Tree",52298.50739
+1492,OE1116,"Developed-High Intensity,Developed",17960.36694
+1493,OE1116,"Developed-Low Intensity,Developed",114166.1201
+1494,OE1116,"Developed-Medium Intensity,Developed",80444.60812
+1495,OE1116,"Open Water,Water",97916.69925
+1496,OE1180,"1.B Temperate & Boreal Forest & Woodland,Tree",346674.2956
+1497,OE1180,"2.B Temperate & Boreal Grassland & Shrubland,Herb",56861.19386
+1498,OE1180,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",4445.358196
+1499,OE1180,"2.C Shrub & Herb Wetland,Herb",10832.02515
+1500,OE1180,"2.C Shrub & Herb Wetland,Shrub",900
+1501,OE1180,"7.A Woody Agricultural Vegetation,Tree",9607.044129
+1502,OE1180,"7.C Herbaceous & Woody Developed Vegetation,Herb",43668.01744
+1503,OE1180,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4248.566345
+1504,OE1180,"7.C Herbaceous & Woody Developed Vegetation,Tree",42608.72846
+1505,OE1180,"Developed-High Intensity,Developed",30041.15799
+1506,OE1180,"Developed-Low Intensity,Developed",53577.86486
+1507,OE1180,"Developed-Medium Intensity,Developed",74417.09168
+1508,OE1180,"Developed-Roads,Developed",4316.098317
+1509,OE1180,"Open Water,Water",86963.91598
+1510,OE1180,Quarries-Strip Mines-Gravel Pits-Energy Developme*,3381.12791
+1511,RR1010,"1.B Temperate & Boreal Forest & Woodland,Tree",77869.39535
+1512,RR1010,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2353.047109
+1513,RR1010,"2.C Shrub & Herb Wetland,Herb",1800
+1514,RR1010,"7.C Herbaceous & Woody Developed Vegetation,Herb",109764.7944
+1515,RR1010,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7047.819504
+1516,RR1010,"7.C Herbaceous & Woody Developed Vegetation,Tree",352299.421
+1517,RR1010,"Developed-High Intensity,Developed",900
+1518,RR1010,"Developed-Low Intensity,Developed",62874.70362
+1519,RR1010,"Developed-Medium Intensity,Developed",9576.342773
+1520,RR1010,"Developed-Roads,Developed",96895.49609
+1521,RR1010,"Open Water,Water",51161.46615
+1522,RR1022,"1.B Temperate & Boreal Forest & Woodland,Tree",287155.0057
+1523,RR1022,"2.B Temperate & Boreal Grassland & Shrubland,Herb",23101.93995
+1524,RR1022,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",3055.682373
+1525,RR1022,"2.C Shrub & Herb Wetland,Herb",8100
+1526,RR1022,"7.A Woody Agricultural Vegetation,Tree",20155.68237
+1527,RR1022,"7.C Herbaceous & Woody Developed Vegetation,Herb",73709.01649
+1528,RR1022,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4176.342774
+1529,RR1022,"7.C Herbaceous & Woody Developed Vegetation,Tree",34642.89045
+1530,RR1022,"Developed-High Intensity,Developed",3600
+1531,RR1022,"Developed-Low Intensity,Developed",60952.36983
+1532,RR1022,"Developed-Medium Intensity,Developed",29011.87201
+1533,RR1022,"Developed-Roads,Developed",162115.7655
+1534,RR1022,"Open Water,Water",62765.91849
+1535,RR1026,"1.B Temperate & Boreal Forest & Woodland,Tree",385017.5258
+1536,RR1026,"2.B Temperate & Boreal Grassland & Shrubland,Herb",29124.78896
+1537,RR1026,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",11700
+1538,RR1026,"2.C Shrub & Herb Wetland,Herb",5545.953369
+1539,RR1026,"7.A Woody Agricultural Vegetation,Tree",31578.04157
+1540,RR1026,"7.B Herbaceous Agricultural Vegetation,Agriculture",899.9999999
+1541,RR1026,"7.C Herbaceous & Woody Developed Vegetation,Herb",86641.88019
+1542,RR1026,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3107.340933
+1543,RR1026,"7.C Herbaceous & Woody Developed Vegetation,Tree",87862.64622
+1544,RR1026,"Developed-Low Intensity,Developed",26256.87815
+1545,RR1026,"Developed-Medium Intensity,Developed",2071.073998
+1546,RR1026,"Developed-Roads,Developed",62622.97479
+1547,RR1026,"Open Water,Water",40113.38193
+1548,RR1030,"1.B Temperate & Boreal Forest & Woodland,Tree",205194.5717
+1549,RR1030,"2.B Temperate & Boreal Grassland & Shrubland,Herb",11952.68555
+1550,RR1030,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",7161.38348
+1551,RR1030,"2.C Shrub & Herb Wetland,Herb",5400
+1552,RR1030,"7.A Woody Agricultural Vegetation,Tree",8100
+1553,RR1030,"7.C Herbaceous & Woody Developed Vegetation,Herb",192907.3758
+1554,RR1030,"7.C Herbaceous & Woody Developed Vegetation,Shrub",11356.80962
+1555,RR1030,"7.C Herbaceous & Woody Developed Vegetation,Tree",68213.83271
+1556,RR1030,"Developed-High Intensity,Developed",13910.55908
+1557,RR1030,"Developed-Low Intensity,Developed",60645.64661
+1558,RR1030,"Developed-Medium Intensity,Developed",32947.11422
+1559,RR1030,"Developed-Roads,Developed",109149.2547
+1560,RR1030,"Open Water,Water",45603.25248
+1561,RR1038,"1.B Temperate & Boreal Forest & Woodland,Tree",181412.5447
+1562,RR1038,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9555.9353
+1563,RR1038,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800.026413
+1564,RR1038,"2.C Shrub & Herb Wetland,Herb",531.6018922
+1565,RR1038,"7.A Woody Agricultural Vegetation,Tree",5400
+1566,RR1038,"7.C Herbaceous & Woody Developed Vegetation,Herb",24157.903
+1567,RR1038,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6509.780238
+1568,RR1038,"7.C Herbaceous & Woody Developed Vegetation,Tree",112197.873
+1569,RR1038,"Developed-High Intensity,Developed",61042.50178
+1570,RR1038,"Developed-Low Intensity,Developed",81911.74738
+1571,RR1038,"Developed-Medium Intensity,Developed",90839.20044
+1572,RR1038,"Developed-Roads,Developed",161496.5869
+1573,RR1038,"Open Water,Water",35686.78493
+1574,RR1042,"1.B Temperate & Boreal Forest & Woodland,Tree",272978.3243
+1575,RR1042,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4668.434223
+1576,RR1042,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2316.331571
+1577,RR1042,"2.C Shrub & Herb Wetland,Herb",1800
+1578,RR1042,"7.B Herbaceous Agricultural Vegetation,Herb",159.9230427
+1579,RR1042,"7.C Herbaceous & Woody Developed Vegetation,Herb",73661.29178
+1580,RR1042,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8521.81179
+1581,RR1042,"7.C Herbaceous & Woody Developed Vegetation,Tree",62617.92386
+1582,RR1042,"Developed-Low Intensity,Developed",129211.3467
+1583,RR1042,"Developed-Medium Intensity,Developed",2678.277496
+1584,RR1042,"Developed-Roads,Developed",182949.2118
+1585,RR1042,"Open Water,Water",30979.60936
+1586,RR1054,"1.B Temperate & Boreal Forest & Woodland,Tree",286992.2814
+1587,RR1054,"2.B Temperate & Boreal Grassland & Shrubland,Herb",8760.407857
+1588,RR1054,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1255.682373
+1589,RR1054,"2.C Shrub & Herb Wetland,Herb",931.6786209
+1590,RR1054,"2.C Shrub & Herb Wetland,Shrub",2700
+1591,RR1054,"7.C Herbaceous & Woody Developed Vegetation,Herb",40503.36179
+1592,RR1054,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8568.878554
+1593,RR1054,"7.C Herbaceous & Woody Developed Vegetation,Tree",36130.73202
+1594,RR1054,"Developed-High Intensity,Developed",33107.67484
+1595,RR1054,"Developed-Low Intensity,Developed",95160.70729
+1596,RR1054,"Developed-Medium Intensity,Developed",90329.48814
+1597,RR1054,"Developed-Roads,Developed",134846.1666
+1598,RR1054,"Open Water,Water",33255.42641
+1599,RR1058,"1.B Temperate & Boreal Forest & Woodland,Tree",330978.5838
+1600,RR1058,"2.B Temperate & Boreal Grassland & Shrubland,Herb",8304.207475
+1601,RR1058,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1602,RR1058,"2.C Shrub & Herb Wetland,Herb",4500
+1603,RR1058,"7.C Herbaceous & Woody Developed Vegetation,Herb",87957.88686
+1604,RR1058,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4946.41653
+1605,RR1058,"7.C Herbaceous & Woody Developed Vegetation,Tree",72506.17472
+1606,RR1058,"Developed-High Intensity,Developed",19674.98286
+1607,RR1058,"Developed-Low Intensity,Developed",65996.63507
+1608,RR1058,"Developed-Medium Intensity,Developed",52356.79219
+1609,RR1058,"Developed-Roads,Developed",86174.6244
+1610,RR1058,"Open Water,Water",38246.18209
+1611,RR1074,"1.B Temperate & Boreal Forest & Woodland,Tree",174250.1338
+1612,RR1074,"7.A Woody Agricultural Vegetation,Tree",900
+1613,RR1074,"7.C Herbaceous & Woody Developed Vegetation,Herb",180946.8942
+1614,RR1074,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10631.45209
+1615,RR1074,"7.C Herbaceous & Woody Developed Vegetation,Tree",93116.28526
+1616,RR1074,"Developed-High Intensity,Developed",8459.512761
+1617,RR1074,"Developed-Low Intensity,Developed",121947.5808
+1618,RR1074,"Developed-Medium Intensity,Developed",73163.53593
+1619,RR1074,"Developed-Roads,Developed",70574.30955
+1620,RR1074,"Open Water,Water",38552.78153
+1621,RR1086,"1.B Temperate & Boreal Forest & Woodland,Tree",240033.125
+1622,RR1086,"2.B Temperate & Boreal Grassland & Shrubland,Herb",23225.93199
+1623,RR1086,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1624,RR1086,"2.C Shrub & Herb Wetland,Herb",5299.7016
+1625,RR1086,"7.A Woody Agricultural Vegetation,Tree",14092.6911
+1626,RR1086,"7.C Herbaceous & Woody Developed Vegetation,Herb",39828.49424
+1627,RR1086,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5400
+1628,RR1086,"7.C Herbaceous & Woody Developed Vegetation,Tree",64662.42465
+1629,RR1086,"Developed-High Intensity,Developed",1800
+1630,RR1086,"Developed-Low Intensity,Developed",84432.18704
+1631,RR1086,"Developed-Medium Intensity,Developed",23767.4396
+1632,RR1086,"Developed-Roads,Developed",203505.7115
+1633,RR1086,"Open Water,Water",65594.77919
+1634,RR1090,"1.B Temperate & Boreal Forest & Woodland,Tree",381759.6624
+1635,RR1090,"2.B Temperate & Boreal Grassland & Shrubland,Herb",23494.14791
+1636,RR1090,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",9000
+1637,RR1090,"2.C Shrub & Herb Wetland,Herb",5545.953369
+1638,RR1090,"7.A Woody Agricultural Vegetation,Tree",31307.12526
+1639,RR1090,"7.C Herbaceous & Woody Developed Vegetation,Herb",76118.4852
+1640,RR1090,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2376.342773
+1641,RR1090,"7.C Herbaceous & Woody Developed Vegetation,Tree",122406.9201
+1642,RR1090,"Developed-Low Intensity,Developed",15419.22674
+1643,RR1090,"Developed-Medium Intensity,Developed",900
+1644,RR1090,"Developed-Roads,Developed",58906.734
+1645,RR1090,"Open Water,Water",45307.88823
+1646,RR1094,"1.B Temperate & Boreal Forest & Woodland,Tree",274628.8266
+1647,RR1094,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6300
+1648,RR1094,"7.A Woody Agricultural Vegetation,Tree",5983.027913
+1649,RR1094,"7.C Herbaceous & Woody Developed Vegetation,Herb",126107.3042
+1650,RR1094,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8128.547765
+1651,RR1094,"7.C Herbaceous & Woody Developed Vegetation,Tree",56584.62981
+1652,RR1094,"Developed-Low Intensity,Developed",123353.4245
+1653,RR1094,"Developed-Medium Intensity,Developed",7637.384316
+1654,RR1094,"Developed-Roads,Developed",129593.4186
+1655,RR1094,"Open Water,Water",34225.92223
+1656,RR1102,"1.B Temperate & Boreal Forest & Woodland,Tree",310560.798
+1657,RR1102,"2.B Temperate & Boreal Grassland & Shrubland,Herb",25950.73344
+1658,RR1102,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2155.682373
+1659,RR1102,"2.C Shrub & Herb Wetland,Herb",6300
+1660,RR1102,"7.A Woody Agricultural Vegetation,Tree",17037.03653
+1661,RR1102,"7.C Herbaceous & Woody Developed Vegetation,Herb",70737.11729
+1662,RR1102,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6856.807858
+1663,RR1102,"7.C Herbaceous & Woody Developed Vegetation,Tree",102061.2503
+1664,RR1102,"Developed-Low Intensity,Developed",38348.65156
+1665,RR1102,"Developed-Medium Intensity,Developed",10476.34277
+1666,RR1102,"Developed-Roads,Developed",120751.2622
+1667,RR1102,"Open Water,Water",61306.80365
+1668,RR1106,"1.B Temperate & Boreal Forest & Woodland,Tree",183838.0817
+1669,RR1106,"2.B Temperate & Boreal Grassland & Shrubland,Herb",10142.78412
+1670,RR1106,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2011.860095
+1671,RR1106,"7.A Woody Agricultural Vegetation,Tree",8100
+1672,RR1106,"7.B Herbaceous Agricultural Vegetation,Agriculture",3561.647754
+1673,RR1106,"7.C Herbaceous & Woody Developed Vegetation,Herb",135419.6754
+1674,RR1106,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5526.170085
+1675,RR1106,"7.C Herbaceous & Woody Developed Vegetation,Tree",245046.8748
+1676,RR1106,"Developed-Low Intensity,Developed",66410.539
+1677,RR1106,"Developed-Medium Intensity,Developed",438.5425623
+1678,RR1106,"Developed-Roads,Developed",86757.25666
+1679,RR1106,"Open Water,Water",25289.05382
+1680,RR1110,"1.B Temperate & Boreal Forest & Woodland,Tree",341336.2341
+1681,RR1110,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6279.298847
+1682,RR1110,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1683,RR1110,"2.C Shrub & Herb Wetland,Herb",2700
+1684,RR1110,"7.C Herbaceous & Woody Developed Vegetation,Herb",57263.72474
+1685,RR1110,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3442.403727
+1686,RR1110,"7.C Herbaceous & Woody Developed Vegetation,Tree",85284.34439
+1687,RR1110,"Developed-High Intensity,Developed",2385.101914
+1688,RR1110,"Developed-Low Intensity,Developed",75567.0215
+1689,RR1110,"Developed-Medium Intensity,Developed",53358.15207
+1690,RR1110,"Developed-Roads,Developed",99249.98033
+1691,RR1110,"Open Water,Water",43876.22436
+1692,RR1118,"1.B Temperate & Boreal Forest & Woodland,Tree",433159.6406
+1693,RR1118,"2.B Temperate & Boreal Grassland & Shrubland,Herb",8059.315443
+1694,RR1118,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1695,RR1118,"2.C Shrub & Herb Wetland,Herb",13871.5471
+1696,RR1118,"7.A Woody Agricultural Vegetation,Tree",998.799159
+1697,RR1118,"7.C Herbaceous & Woody Developed Vegetation,Herb",36950.92888
+1698,RR1118,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3864.693488
+1699,RR1118,"7.C Herbaceous & Woody Developed Vegetation,Tree",67102.34663
+1700,RR1118,"Developed-Low Intensity,Developed",26639.0388
+1701,RR1118,"Developed-Medium Intensity,Developed",2700
+1702,RR1118,"Developed-Roads,Developed",96646.88921
+1703,RR1118,"Open Water,Water",81649.28658
+1704,RR1138,"1.B Temperate & Boreal Forest & Woodland,Tree",153241.926
+1705,RR1138,"7.A Woody Agricultural Vegetation,Tree",576.3427734
+1706,RR1138,"7.B Herbaceous Agricultural Vegetation,Agriculture",900
+1707,RR1138,"7.B Herbaceous Agricultural Vegetation,Herb",8147.460938
+1708,RR1138,"7.C Herbaceous & Woody Developed Vegetation,Herb",169857.6773
+1709,RR1138,"7.C Herbaceous & Woody Developed Vegetation,Shrub",19676.18739
+1710,RR1138,"7.C Herbaceous & Woody Developed Vegetation,Tree",290985.3562
+1711,RR1138,"Developed-High Intensity,Developed",900
+1712,RR1138,"Developed-Low Intensity,Developed",32556.06164
+1713,RR1138,"Developed-Medium Intensity,Developed",1800
+1714,RR1138,"Developed-Roads,Developed",71602.5333
+1715,RR1138,"Open Water,Water",22298.94034
+1716,RR1150,"1.B Temperate & Boreal Forest & Woodland,Tree",138178.8724
+1717,RR1150,"2.B Temperate & Boreal Grassland & Shrubland,Herb",21402.4219
+1718,RR1150,"7.A Woody Agricultural Vegetation,Tree",17814.9353
+1719,RR1150,"7.C Herbaceous & Woody Developed Vegetation,Herb",67712.88923
+1720,RR1150,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7491.676031
+1721,RR1150,"7.C Herbaceous & Woody Developed Vegetation,Tree",87940.06982
+1722,RR1150,"Developed-High Intensity,Developed",5578.025935
+1723,RR1150,"Developed-Low Intensity,Developed",139183.8394
+1724,RR1150,"Developed-Medium Intensity,Developed",62949.9198
+1725,RR1150,"Developed-Roads,Developed",170158.015
+1726,RR1150,"Open Water,Water",54131.82114
+1727,RR1154,"1.B Temperate & Boreal Forest & Woodland,Tree",291488.112
+1728,RR1154,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2700
+1729,RR1154,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1228.857416
+1730,RR1154,"2.C Shrub & Herb Wetland,Herb",3600
+1731,RR1154,"7.A Woody Agricultural Vegetation,Tree",900
+1732,RR1154,"7.B Herbaceous Agricultural Vegetation,Herb",2071.150972
+1733,RR1154,"7.C Herbaceous & Woody Developed Vegetation,Herb",54908.77161
+1734,RR1154,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8100
+1735,RR1154,"7.C Herbaceous & Woody Developed Vegetation,Tree",126445.0628
+1736,RR1154,"Developed-High Intensity,Developed",6289.121592
+1737,RR1154,"Developed-Low Intensity,Developed",121538.1564
+1738,RR1154,"Developed-Medium Intensity,Developed",36327.51797
+1739,RR1154,"Developed-Roads,Developed",82731.3718
+1740,RR1154,"Open Water,Water",34214.36331
+1741,RR1158,"1.B Temperate & Boreal Forest & Woodland,Tree",254399.3667
+1742,RR1158,"2.B Temperate & Boreal Grassland & Shrubland,Herb",11052.68555
+1743,RR1158,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1800
+1744,RR1158,"2.C Shrub & Herb Wetland,Herb",1800
+1745,RR1158,"7.A Woody Agricultural Vegetation,Tree",9703.728349
+1746,RR1158,"7.B Herbaceous Agricultural Vegetation,Agriculture",20.6616612
+1747,RR1158,"7.C Herbaceous & Woody Developed Vegetation,Herb",334909.1672
+1748,RR1158,"7.C Herbaceous & Woody Developed Vegetation,Shrub",13073.90001
+1749,RR1158,"7.C Herbaceous & Woody Developed Vegetation,Tree",69431.34144
+1750,RR1158,"Developed-Low Intensity,Developed",5860.418073
+1751,RR1158,"Developed-Roads,Developed",1579.411609
+1752,RR1158,"Open Water,Water",68911.80534
+1753,RR1166,"1.B Temperate & Boreal Forest & Woodland,Tree",338375.9291
+1754,RR1166,"2.B Temperate & Boreal Grassland & Shrubland,Herb",3579.451375
+1755,RR1166,"7.A Woody Agricultural Vegetation,Tree",3600
+1756,RR1166,"7.C Herbaceous & Woody Developed Vegetation,Herb",100212.5951
+1757,RR1166,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8100
+1758,RR1166,"7.C Herbaceous & Woody Developed Vegetation,Tree",58774.33941
+1759,RR1166,"Developed-High Intensity,Developed",16200
+1760,RR1166,"Developed-Low Intensity,Developed",62380.14153
+1761,RR1166,"Developed-Medium Intensity,Developed",49146.71486
+1762,RR1166,"Developed-Roads,Developed",93297.07974
+1763,RR1166,"Open Water,Water",38876.23489
+1764,RR1170,"1.B Temperate & Boreal Forest & Woodland,Tree",190191.012
+1765,RR1170,"2.B Temperate & Boreal Grassland & Shrubland,Herb",9474.506607
+1766,RR1170,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2922.032741
+1767,RR1170,"2.C Shrub & Herb Wetland,Herb",1096.818316
+1768,RR1170,"7.A Woody Agricultural Vegetation,Tree",4477.029504
+1769,RR1170,"7.B Herbaceous Agricultural Vegetation,Agriculture",3751.49925
+1770,RR1170,"7.C Herbaceous & Woody Developed Vegetation,Herb",364705.6649
+1771,RR1170,"7.C Herbaceous & Woody Developed Vegetation,Shrub",15443.57238
+1772,RR1170,"7.C Herbaceous & Woody Developed Vegetation,Tree",69512.28803
+1773,RR1170,"Developed-Low Intensity,Developed",15547.97441
+1774,RR1170,"Developed-Medium Intensity,Developed",6300
+1775,RR1170,"Developed-Roads,Developed",44871.56675
+1776,RR1170,"Open Water,Water",44248.52104
+1777,RR1174,"1.B Temperate & Boreal Forest & Woodland,Tree",326732.6979
+1778,RR1174,"7.C Herbaceous & Woody Developed Vegetation,Herb",44655.43221
+1779,RR1174,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7594.327625
+1780,RR1174,"7.C Herbaceous & Woody Developed Vegetation,Tree",93682.93172
+1781,RR1174,"Developed-High Intensity,Developed",900
+1782,RR1174,"Developed-Low Intensity,Developed",101097.2474
+1783,RR1174,"Developed-Medium Intensity,Developed",22305.83018
+1784,RR1174,"Developed-Roads,Developed",121467.0999
+1785,RR1174,"Open Water,Water",54106.91895
+1786,RR1182,"1.B Temperate & Boreal Forest & Woodland,Tree",495723.5924
+1787,RR1182,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1780.778034
+1788,RR1182,"2.C Shrub & Herb Wetland,Herb",12166.61782
+1789,RR1182,"7.A Woody Agricultural Vegetation,Tree",3435.527253
+1790,RR1182,"7.C Herbaceous & Woody Developed Vegetation,Herb",40419.53352
+1791,RR1182,"7.C Herbaceous & Woody Developed Vegetation,Shrub",7138.858052
+1792,RR1182,"7.C Herbaceous & Woody Developed Vegetation,Tree",77846.11473
+1793,RR1182,"Developed-Low Intensity,Developed",28881.41104
+1794,RR1182,"Developed-Medium Intensity,Developed",16351.17188
+1795,RR1182,"Developed-Roads,Developed",46757.57043
+1796,RR1182,"Open Water,Water",42041.31078
+1797,SC1016,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+1798,SC1016,"1.B Temperate & Boreal Forest & Woodland,Tree",337181.156
+1799,SC1016,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4176.342773
+1800,SC1016,"2.C Shrub & Herb Wetland,Herb",5400
+1801,SC1016,"7.B Herbaceous Agricultural Vegetation,Herb",1800
+1802,SC1016,"7.C Herbaceous & Woody Developed Vegetation,Herb",64246.33503
+1803,SC1016,"7.C Herbaceous & Woody Developed Vegetation,Shrub",15477.08216
+1804,SC1016,"7.C Herbaceous & Woody Developed Vegetation,Tree",218670.546
+1805,SC1016,"Developed-Low Intensity,Developed",29897.04796
+1806,SC1016,"Developed-Roads,Developed",45989.36064
+1807,SC1016,"Open Water,Water",48804.6154
+1808,SC1027,"1.B Temperate & Boreal Forest & Woodland,Tree",357132.601
+1809,SC1027,"2.B Temperate & Boreal Grassland & Shrubland,Herb",91649.84018
+1810,SC1027,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",10019.23321
+1811,SC1027,"2.C Shrub & Herb Wetland,Herb",2092.555659
+1812,SC1027,"2.C Shrub & Herb Wetland,Tree",5021.14921
+1813,SC1027,"7.A Woody Agricultural Vegetation,Tree",576.3427734
+1814,SC1027,"7.B Herbaceous Agricultural Vegetation,Herb",4155.982931
+1815,SC1027,"7.C Herbaceous & Woody Developed Vegetation,Herb",45225.89519
+1816,SC1027,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3427.841552
+1817,SC1027,"7.C Herbaceous & Woody Developed Vegetation,Tree",64611.86991
+1818,SC1027,"Developed-Low Intensity,Developed",63590.77478
+1819,SC1027,"Developed-Roads,Developed",65961.81731
+1820,SC1027,"Open Water,Water",47559.47376
+1821,SC1027,Quarries-Strip Mines-Gravel Pits-Energy Developme*,11517.10844
+1822,SC1032,"1.B Temperate & Boreal Forest & Woodland,Tree",391973.6213
+1823,SC1032,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2700
+1824,SC1032,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2870.03453
+1825,SC1032,"2.C Shrub & Herb Wetland,Herb",9294.015734
+1826,SC1032,"2.C Shrub & Herb Wetland,Shrub",900
+1827,SC1032,"7.A Woody Agricultural Vegetation,Tree",1295.755005
+1828,SC1032,"7.B Herbaceous Agricultural Vegetation,Agriculture",3690.196721
+1829,SC1032,"7.B Herbaceous Agricultural Vegetation,Herb",4754.920669
+1830,SC1032,"7.C Herbaceous & Woody Developed Vegetation,Herb",13839.67845
+1831,SC1032,"7.C Herbaceous & Woody Developed Vegetation,Tree",244899.4805
+1832,SC1032,"Developed-Low Intensity,Developed",24081.77243
+1833,SC1032,"Developed-Roads,Developed",30042.16324
+1834,SC1032,"Open Water,Water",42200.84733
+1835,SC1048,"1.B Temperate & Boreal Forest & Woodland,Tree",398128.1123
+1836,SC1048,"2.C Shrub & Herb Wetland,Herb",304.7825611
+1837,SC1048,"7.B Herbaceous Agricultural Vegetation,Herb",616.2128851
+1838,SC1048,"7.C Herbaceous & Woody Developed Vegetation,Herb",17533.65764
+1839,SC1048,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2684.175717
+1840,SC1048,"7.C Herbaceous & Woody Developed Vegetation,Tree",177655.2889
+1841,SC1048,"Developed-Low Intensity,Developed",35498.07754
+1842,SC1048,"Developed-Medium Intensity,Developed",5066.400147
+1843,SC1048,"Developed-Roads,Developed",84992.86936
+1844,SC1048,"Open Water,Water",50062.90882
+1845,SC1055,"1.B Temperate & Boreal Forest & Woodland,Tree",89787.82472
+1846,SC1055,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1095.591928
+1847,SC1055,"7.C Herbaceous & Woody Developed Vegetation,Herb",172553.0029
+1848,SC1055,"7.C Herbaceous & Woody Developed Vegetation,Shrub",15377.60404
+1849,SC1055,"7.C Herbaceous & Woody Developed Vegetation,Tree",122127.1577
+1850,SC1055,"Developed-High Intensity,Developed",12331.52963
+1851,SC1055,"Developed-Low Intensity,Developed",190561.8436
+1852,SC1055,"Developed-Medium Intensity,Developed",34409.51556
+1853,SC1055,"Developed-Roads,Developed",134298.4159
+1854,SC1060,"1.B Temperate & Boreal Forest & Woodland,Tree",459702.4498
+1855,SC1060,"7.C Herbaceous & Woody Developed Vegetation,Herb",20394.5317
+1856,SC1060,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3600
+1857,SC1060,"7.C Herbaceous & Woody Developed Vegetation,Tree",212860.0287
+1858,SC1060,"Developed-Low Intensity,Developed",17750.22995
+1859,SC1060,"Developed-Roads,Developed",58235.24583
+1860,SC1064,"1.B Temperate & Boreal Forest & Woodland,Tree",480701.7649
+1861,SC1064,"2.C Shrub & Herb Wetland,Tree",1972.255171
+1862,SC1064,"7.A Woody Agricultural Vegetation,Tree",1860.281116
+1863,SC1064,"7.C Herbaceous & Woody Developed Vegetation,Herb",19579.47491
+1864,SC1064,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3007.791818
+1865,SC1064,"7.C Herbaceous & Woody Developed Vegetation,Tree",183668.8155
+1866,SC1064,"Developed-Low Intensity,Developed",22217.01735
+1867,SC1064,"Developed-Roads,Developed",59535.08521
+1868,SC1075,"1.B Temperate & Boreal Forest & Woodland,Tree",430027.4024
+1869,SC1075,"2.B Temperate & Boreal Grassland & Shrubland,Herb",48689.83463
+1870,SC1075,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",5692.519724
+1871,SC1075,"2.C Shrub & Herb Wetland,Herb",2011.011706
+1872,SC1075,"2.C Shrub & Herb Wetland,Tree",3318.238084
+1873,SC1075,"7.A Woody Agricultural Vegetation,Tree",1192.555659
+1874,SC1075,"7.B Herbaceous Agricultural Vegetation,Herb",2289.42952
+1875,SC1075,"7.C Herbaceous & Woody Developed Vegetation,Herb",58125.81966
+1876,SC1075,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2534.777561
+1877,SC1075,"7.C Herbaceous & Woody Developed Vegetation,Tree",65103.06616
+1878,SC1075,"Developed-Low Intensity,Developed",72354.01133
+1879,SC1075,"Developed-Roads,Developed",60329.10153
+1880,SC1075,"Open Water,Water",18770.95924
+1881,SC1075,Quarries-Strip Mines-Gravel Pits-Energy Developme*,2103.758765
+1882,SC1080,"1.B Temperate & Boreal Forest & Woodland,Tree",418875.5215
+1883,SC1080,"2.B Temperate & Boreal Grassland & Shrubland,Herb",1283.044948
+1884,SC1080,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",2870.03453
+1885,SC1080,"2.C Shrub & Herb Wetland,Herb",2052.685547
+1886,SC1080,"2.C Shrub & Herb Wetland,Shrub",900
+1887,SC1080,"7.B Herbaceous Agricultural Vegetation,Agriculture",616.212885
+1888,SC1080,"7.B Herbaceous Agricultural Vegetation,Herb",4754.920669
+1889,SC1080,"7.C Herbaceous & Woody Developed Vegetation,Herb",27443.62165
+1890,SC1080,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12934.54062
+1891,SC1080,"7.C Herbaceous & Woody Developed Vegetation,Tree",152629.9597
+1892,SC1080,"Developed-Low Intensity,Developed",31207.91314
+1893,SC1080,"Developed-Medium Intensity,Developed",2700
+1894,SC1080,"Developed-Roads,Developed",82712.64647
+1895,SC1080,"Open Water,Water",31561.38428
+1896,SC1108,"1.B Temperate & Boreal Forest & Woodland,Tree",257581.4244
+1897,SC1108,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+1898,SC1108,"2.C Shrub & Herb Wetland,Herb",9000
+1899,SC1108,"7.A Woody Agricultural Vegetation,Tree",1295.755005
+1900,SC1108,"7.B Herbaceous Agricultural Vegetation,Herb",1800
+1901,SC1108,"7.C Herbaceous & Woody Developed Vegetation,Herb",100796.9391
+1902,SC1108,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4176.342774
+1903,SC1108,"7.C Herbaceous & Woody Developed Vegetation,Tree",211074.7674
+1904,SC1108,"Developed-Low Intensity,Developed",66386.67476
+1905,SC1108,"Developed-Medium Intensity,Developed",15267.53166
+1906,SC1108,"Developed-Roads,Developed",60740.68576
+1907,SC1108,"Open Water,Water",43522.36507
+1908,SC1112,"1.B Temperate & Boreal Forest & Woodland,Tree",619392.4377
+1909,SC1112,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",900
+1910,SC1112,"7.A Woody Agricultural Vegetation,Tree",2112.122303
+1911,SC1112,"7.C Herbaceous & Woody Developed Vegetation,Herb",10040.38358
+1912,SC1112,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+1913,SC1112,"7.C Herbaceous & Woody Developed Vegetation,Tree",52228.55792
+1914,SC1112,"Developed-Low Intensity,Developed",32635.03692
+1915,SC1112,"Developed-Medium Intensity,Developed",1800
+1916,SC1112,"Developed-Roads,Developed",52533.9475
+1917,SC1119,"1.B Temperate & Boreal Forest & Woodland,Tree",207429.7759
+1918,SC1119,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+1919,SC1119,"7.C Herbaceous & Woody Developed Vegetation,Herb",160237.2702
+1920,SC1119,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2778.479978
+1921,SC1119,"7.C Herbaceous & Woody Developed Vegetation,Tree",176771.6852
+1922,SC1119,"Developed-High Intensity,Developed",900
+1923,SC1119,"Developed-Low Intensity,Developed",114661.2776
+1924,SC1119,"Developed-Medium Intensity,Developed",22500
+1925,SC1119,"Developed-Roads,Developed",84563.99715
+1926,SC1119,"Recently Disturbed or Modified,Herb",1800
+1927,SC1124,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+1928,SC1124,"1.B Temperate & Boreal Forest & Woodland,Tree",387293.3732
+1929,SC1124,"2.B Temperate & Boreal Grassland & Shrubland,Herb",4176.342773
+1930,SC1124,"2.C Shrub & Herb Wetland,Herb",4500
+1931,SC1124,"7.B Herbaceous Agricultural Vegetation,Herb",1800
+1932,SC1124,"7.C Herbaceous & Woody Developed Vegetation,Herb",52474.13838
+1933,SC1124,"7.C Herbaceous & Woody Developed Vegetation,Shrub",17880.14555
+1934,SC1124,"7.C Herbaceous & Woody Developed Vegetation,Tree",191197.6508
+1935,SC1124,"Developed-Low Intensity,Developed",30478.99512
+1936,SC1124,"Developed-Roads,Developed",46765.827
+1937,SC1124,"Open Water,Water",35076.01312
+1938,SC1128,"1.B Temperate & Boreal Forest & Woodland,Tree",160490.435
+1939,SC1128,"7.C Herbaceous & Woody Developed Vegetation,Herb",41378.16323
+1940,SC1128,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5976.342773
+1941,SC1128,"7.C Herbaceous & Woody Developed Vegetation,Tree",425172.8011
+1942,SC1128,"Developed-Low Intensity,Developed",47444.61604
+1943,SC1128,"Developed-Medium Intensity,Developed",1476.342773
+1944,SC1128,"Developed-Roads,Developed",90603.78502
+1945,SC1144,"1.B Temperate & Boreal Forest & Woodland,Tree",370351.3253
+1946,SC1144,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2376.342773
+1947,SC1144,"2.C Shrub & Herb Wetland,Herb",1476.342773
+1948,SC1144,"7.A Woody Agricultural Vegetation,Tree",616.2128851
+1949,SC1144,"7.C Herbaceous & Woody Developed Vegetation,Herb",19996.15452
+1950,SC1144,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3612.794563
+1951,SC1144,"7.C Herbaceous & Woody Developed Vegetation,Tree",256855.356
+1952,SC1144,"Developed-Low Intensity,Developed",38365.55552
+1953,SC1144,"Developed-Medium Intensity,Developed",1150.872327
+1954,SC1144,"Developed-Roads,Developed",64487.31005
+1955,SC1144,"Open Water,Water",13254.21921
+1956,SC1160,"1.B Temperate & Boreal Forest & Woodland,Tree",299535.358
+1957,SC1160,"7.B Herbaceous Agricultural Vegetation,Herb",1069.708876
+1958,SC1160,"7.C Herbaceous & Woody Developed Vegetation,Herb",22998.02509
+1959,SC1160,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6296.123266
+1960,SC1160,"7.C Herbaceous & Woody Developed Vegetation,Tree",383002.7156
+1961,SC1160,"Developed-Low Intensity,Developed",22005.70805
+1962,SC1160,"Developed-Medium Intensity,Developed",1780.126972
+1963,SC1160,"Developed-Roads,Developed",35854.72004
+1964,SC1172,"1.B Temperate & Boreal Forest & Woodland,Tree",165272.0455
+1965,SC1172,"2.C Shrub & Herb Wetland,Herb",7230.875711
+1966,SC1172,"7.B Herbaceous Agricultural Vegetation,Herb",1800
+1967,SC1172,"7.C Herbaceous & Woody Developed Vegetation,Herb",92292.14117
+1968,SC1172,"7.C Herbaceous & Woody Developed Vegetation,Shrub",2700
+1969,SC1172,"7.C Herbaceous & Woody Developed Vegetation,Tree",287242.2979
+1970,SC1172,"Developed-Low Intensity,Developed",81410.20671
+1971,SC1172,"Developed-Medium Intensity,Developed",16473.28384
+1972,SC1172,"Developed-Roads,Developed",82181.11758
+1973,SC1172,"Open Water,Water",35940.51755
+1974,SC1176,"1.B Temperate & Boreal Forest & Woodland,Tree",488783.3329
+1975,SC1176,"7.C Herbaceous & Woody Developed Vegetation,Herb",6300
+1976,SC1176,"7.C Herbaceous & Woody Developed Vegetation,Shrub",900
+1977,SC1176,"7.C Herbaceous & Woody Developed Vegetation,Tree",201066.2392
+1978,SC1176,"Developed-Low Intensity,Developed",20527.22108
+1979,SC1176,"Developed-Medium Intensity,Developed",576.3427735
+1980,SC1176,"Developed-Roads,Developed",54389.34994
+1981,SC1183,"1.B Temperate & Boreal Forest & Woodland,Tree",198507.972
+1982,SC1183,"2.B Temperate & Boreal Grassland & Shrubland,Herb",900
+1983,SC1183,"2.B Temperate & Boreal Grassland & Shrubland,Shrub",1756.363302
+1984,SC1183,"7.C Herbaceous & Woody Developed Vegetation,Herb",159724.7993
+1985,SC1183,"7.C Herbaceous & Woody Developed Vegetation,Shrub",4200.883227
+1986,SC1183,"7.C Herbaceous & Woody Developed Vegetation,Tree",182996.456
+1987,SC1183,"Developed-High Intensity,Developed",132.2451806
+1988,SC1183,"Developed-Low Intensity,Developed",121830.1661
+1989,SC1183,"Developed-Medium Intensity,Developed",21505.64644
+1990,SC1183,"Developed-Roads,Developed",79187.95448
+1991,SC1183,"Recently Disturbed or Modified,Herb",1800
+1992,SC1188,"1.B Temperate & Boreal Forest & Woodland,Shrub",900
+1993,SC1188,"1.B Temperate & Boreal Forest & Woodland,Tree",292672.393
+1994,SC1188,"2.B Temperate & Boreal Grassland & Shrubland,Herb",2717.546032
+1995,SC1188,"2.C Shrub & Herb Wetland,Herb",4395.707699
+1996,SC1188,"2.C Shrub & Herb Wetland,Tree",4319.156157
+1997,SC1188,"7.B Herbaceous Agricultural Vegetation,Herb",1800
+1998,SC1188,"7.C Herbaceous & Woody Developed Vegetation,Herb",47520.14896
+1999,SC1188,"7.C Herbaceous & Woody Developed Vegetation,Shrub",14665.77564
+2000,SC1188,"7.C Herbaceous & Woody Developed Vegetation,Tree",290560.532
+2001,SC1188,"Developed-Low Intensity,Developed",27011.59666
+2002,SC1188,"Developed-Roads,Developed",42777.25879
+2003,SC1188,"Open Water,Water",43202.37098
+2004,SC1192,"1.B Temperate & Boreal Forest & Woodland,Tree",184385.9508
+2005,SC1192,"7.C Herbaceous & Woody Developed Vegetation,Herb",46841.41899
+2006,SC1192,"7.C Herbaceous & Woody Developed Vegetation,Shrub",5400
+2007,SC1192,"7.C Herbaceous & Woody Developed Vegetation,Tree",432133.4933
+2008,SC1192,"Developed-Low Intensity,Developed",43176.91064
+2009,SC1192,"Developed-Medium Intensity,Developed",2946.976957
+2010,SC1192,"Developed-Roads,Developed",57657.73519
+2011,WA1084,"2.B Temperate & Boreal Grassland & Shrubland,Herb",66806.13994
+2012,WA1084,"7.C Herbaceous & Woody Developed Vegetation,Herb",176279.1128
+2013,WA1084,"7.C Herbaceous & Woody Developed Vegetation,Shrub",514.437753
+2014,WA1084,"7.C Herbaceous & Woody Developed Vegetation,Tree",18831.42409
+2015,WA1084,"Developed-High Intensity,Developed",17916.79271
+2016,WA1084,"Developed-Low Intensity,Developed",200036.3139
+2017,WA1084,"Developed-Medium Intensity,Developed",78990.02762
+2018,WA1084,"Developed-Roads,Developed",168821.1073
+2019,WA1084,"Open Water,Water",28771.7968
+2020,WA1084,Quarries-Strip Mines-Gravel Pits-Energy Developme*,15575.33298
+2021,WA3980,"2.B Temperate & Boreal Grassland & Shrubland,Herb",6839.95267
+2022,WA3980,"7.C Herbaceous & Woody Developed Vegetation,Herb",120678.7484
+2023,WA3980,"7.C Herbaceous & Woody Developed Vegetation,Shrub",1800
+2024,WA3980,"7.C Herbaceous & Woody Developed Vegetation,Tree",4354.958038
+2025,WA3980,"Developed-High Intensity,Developed",7857.82231
+2026,WA3980,"Developed-Low Intensity,Developed",237491.559
+2027,WA3980,"Developed-Medium Intensity,Developed",113407.3076
+2028,WA3980,"Developed-Roads,Developed",277412.138
+2029,WA3980,Quarries-Strip Mines-Gravel Pits-Energy Developme*,2700
+2030,WC1008,"7.C Herbaceous & Woody Developed Vegetation,Herb",58496.05002
+2031,WC1008,"7.C Herbaceous & Woody Developed Vegetation,Shrub",12131.87329
+2032,WC1008,"7.C Herbaceous & Woody Developed Vegetation,Tree",320343.1177
+2033,WC1008,"Developed-Low Intensity,Developed",197469.5654
+2034,WC1008,"Developed-Medium Intensity,Developed",6388.554189
+2035,WC1008,"Developed-Roads,Developed",177713.3253
+2036,WC1072,"7.C Herbaceous & Woody Developed Vegetation,Herb",72029.01076
+2037,WC1072,"7.C Herbaceous & Woody Developed Vegetation,Shrub",15361.31357
+2038,WC1072,"7.C Herbaceous & Woody Developed Vegetation,Tree",343497.6618
+2039,WC1072,"Developed-High Intensity,Developed",4516.351842
+2040,WC1072,"Developed-Low Intensity,Developed",170083.5655
+2041,WC1072,"Developed-Medium Intensity,Developed",41773.27705
+2042,WC1072,"Developed-Roads,Developed",125281.3054
+2043,WC1136,"7.C Herbaceous & Woody Developed Vegetation,Herb",126763.9652
+2044,WC1136,"7.C Herbaceous & Woody Developed Vegetation,Shrub",21935.49057
+2045,WC1136,"7.C Herbaceous & Woody Developed Vegetation,Tree",501697.6528
+2046,WC1136,"Developed-High Intensity,Developed",908.5712043
+2047,WC1136,"Developed-Low Intensity,Developed",84468.19211
+2048,WC1136,"Developed-Medium Intensity,Developed",18507.65689
+2049,WC1136,"Developed-Roads,Developed",18260.95722
+2050,WC1376,"7.C Herbaceous & Woody Developed Vegetation,Herb",35722.64492
+2051,WC1376,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6196.398764
+2052,WC1376,"7.C Herbaceous & Woody Developed Vegetation,Tree",604227.1202
+2053,WC1376,"Developed-Low Intensity,Developed",65038.3517
+2054,WC1376,"Developed-Medium Intensity,Developed",12160.01894
+2055,WC1376,"Developed-Roads,Developed",49197.95138
+2056,WC1388,"7.C Herbaceous & Woody Developed Vegetation,Herb",68456.31874
+2057,WC1388,"7.C Herbaceous & Woody Developed Vegetation,Shrub",8108.609077
+2058,WC1388,"7.C Herbaceous & Woody Developed Vegetation,Tree",321051.4677
+2059,WC1388,"Developed-High Intensity,Developed",1127.262196
+2060,WC1388,"Developed-Low Intensity,Developed",174032.8921
+2061,WC1388,"Developed-Medium Intensity,Developed",71337.78576
+2062,WC1388,"Developed-Roads,Developed",128428.1504
+2063,WC3420,"7.C Herbaceous & Woody Developed Vegetation,Herb",25040.54916
+2064,WC3420,"7.C Herbaceous & Woody Developed Vegetation,Shrub",3892.937655
+2065,WC3420,"7.C Herbaceous & Woody Developed Vegetation,Tree",470532.1693
+2066,WC3420,"Developed-Low Intensity,Developed",135964.6204
+2067,WC3420,"Developed-Medium Intensity,Developed",23158.35723
+2068,WC3420,"Developed-Roads,Developed",113953.8522
+2069,WC3484,"7.C Herbaceous & Woody Developed Vegetation,Herb",65054.0264
+2070,WC3484,"7.C Herbaceous & Woody Developed Vegetation,Shrub",19472.73845
+2071,WC3484,"7.C Herbaceous & Woody Developed Vegetation,Tree",430871.5085
+2072,WC3484,"Developed-High Intensity,Developed",3041.651325
+2073,WC3484,"Developed-Low Intensity,Developed",127378.3216
+2074,WC3484,"Developed-Medium Intensity,Developed",26001.19384
+2075,WC3484,"Developed-Roads,Developed",100723.0459
+2076,WC3596,"7.C Herbaceous & Woody Developed Vegetation,Herb",108598.7192
+2077,WC3596,"7.C Herbaceous & Woody Developed Vegetation,Shrub",10285.68423
+2078,WC3596,"7.C Herbaceous & Woody Developed Vegetation,Tree",594258.9311
+2079,WC3596,"Developed-Low Intensity,Developed",43164.61272
+2080,WC3596,"Developed-Medium Intensity,Developed",4494.08014
+2081,WC3596,"Developed-Roads,Developed",11740.45853
+2082,WC3668,"7.C Herbaceous & Woody Developed Vegetation,Herb",65643.13633
+2083,WC3668,"7.C Herbaceous & Woody Developed Vegetation,Shrub",6018.684962
+2084,WC3668,"7.C Herbaceous & Woody Developed Vegetation,Tree",518670.4016
+2085,WC3668,"Developed-High Intensity,Developed",2700
+2086,WC3668,"Developed-Low Intensity,Developed",105752.4079
+2087,WC3668,"Developed-Medium Intensity,Developed",16183.32493
+2088,WC3668,"Developed-Roads,Developed",57574.53018
+2089,WC3732,"7.C Herbaceous & Woody Developed Vegetation,Herb",111039.2951
+2090,WC3732,"7.C Herbaceous & Woody Developed Vegetation,Shrub",14359.34594
+2091,WC3732,"7.C Herbaceous & Woody Developed Vegetation,Tree",465696.2447
+2092,WC3732,"Developed-High Intensity,Developed",2700
+2093,WC3732,"Developed-Low Intensity,Developed",85970.96701
+2094,WC3732,"Developed-Medium Intensity,Developed",29684.44456
+2095,WC3732,"Developed-Roads,Developed",63092.18865

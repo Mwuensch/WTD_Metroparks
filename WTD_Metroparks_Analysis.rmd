@@ -1,0 +1,521 @@
+---
+title: "WTD_Metroparks_Analysis"
+author: "Matt Wuensch"
+date: "2025-02-05"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(glmmTMB)
+library(DHARMa)
+library(vegan)
+library(ggplot2)
+library(patchwork)
+library(performance)
+library(tidyr)
+library(dplyr)
+
+# Bringing in data that you'll need
+detections.dat <- read.csv("detection.data.csv")
+evi.500.wa <- read.csv("EVI.500m.csv")
+
+# Add in EVI WA for 500 m
+detections.dat.500 <- detections.dat %>%
+  right_join(evi.500.wa, by = c("Station", "time.code"))
+
+# Filter out unneeded columns
+detections.dat.500 <- detections.dat.500 %>%
+  select(-days.available, -days.inactive, -X, -season)
+
+
+
+# Bring in the landcover data, clean it up and merge it to detections df
+landco.500 <- read.csv("LF.500m.csv")
+
+# There are duplicates for each landco type from when you summarized them in arc. use distinct function to rein that in
+landco.dist.500 <- landco.500 %>%
+  distinct(Subcl_Veg, camera_id, SUM_Shape_)
+
+# Rename each column to be easier
+landco.dist.500 <- landco.dist.500 %>%
+  rename("Veg.cover" = "Subcl_Veg",
+         "Station" = "camera_id",
+         "Area" = "SUM_Shape_") #Unit is in m
+# Split it wide
+landco.wide.500 <- landco.dist.500 %>%
+  spread(Veg.cover, Area)
+
+# Renaming cover classes
+colnames(landco.wide.500)[2:22] = c("temperate.boreal.forest.shrub", "temperate.boreal.forest.tree", "temperate.boreal.grassland.herbaceous", "temperate.boreal.grassland.shrub", "shrub.herb.wetland.herbaceous", "shrub.herb.wetland.shrub", "shrub.herb.wetland.tree", "woody.ag.tree", "herb.ag.agriculture", "herb.ag.herbaceous", "herb.woody.developed.herbaceous", "herbaceous.woody.developed.shrub", "herbaceous.woody.developed.tree", "developed.high", "developed.low", "developed.medium", "road", "water", "quarry", "recent.disturbed.herbaceous", "recent.disturbed.tree")
+
+# set nas to 0
+landco.wide.500[is.na(landco.wide.500)] <- 0
+
+# Making landco into proportion of the 500 m radius area around the camera trap
+rowsums.500 <-apply(landco.wide.500[,2:22], 1, sum)
+lcprop.500 <- landco.wide.500[,2:22]/772542.5
+landco.b.500 <- cbind(landco.wide.500[,1], lcprop.500)
+landco.b.500 <- as.data.frame(landco.b.500)
+names(landco.b.500)[names(landco.b.500) == 'landco.wide.500[, 1]'] <- 'Station'
+
+#merge landco to detections
+detections.dat.500 <- detections.dat.500 %>%
+  right_join(landco.b.500, by = "Station")
+
+# Coyotes needs to be in coyotes/camera day rather than raw coyote detections to match the offset
+detections.dat.500$coyote.day <- detections.dat.500$Coyote.det/detections.dat.500$days.active
+
+# relocate column
+detections.dat.500 <- detections.dat.500 %>%
+  relocate(coyote.day, .after = Coyote.det)
+
+# Drop away all 0 days active observations...because that makes no sense to include these
+detections.dat.500 <- detections.dat.500 %>%
+  filter(!days.active == 0)
+
+# Combine columns for only landcover, no vegetation cover. May use, may not but good to have, may need to do some more later on, but for now this will work
+detections.dat.500$temperate.boreal.forest <- detections.dat.500$temperate.boreal.forest.shrub + detections.dat.500$temperate.boreal.forest.tree
+
+detections.dat.500$temperate.boreal.grassland <- detections.dat.500$temperate.boreal.grassland.herbaceous + detections.dat.500$temperate.boreal.grassland.shrub
+
+detections.dat.500$shrub.herb.wetland <- detections.dat.500$shrub.herb.wetland.herbaceous + detections.dat.500$shrub.herb.wetland.shrub + detections.dat.500$shrub.herb.wetland.tree
+
+detections.dat.500$herbaceous.agriculture <- detections.dat.500$herb.ag.agriculture + detections.dat.500$herb.ag.herbaceous
+
+detections.dat.500$herbaceous.woody.developed <- detections.dat.500$herb.woody.developed.herbaceous + detections.dat.500$herbaceous.woody.developed.shrub + detections.dat.500$herbaceous.woody.developed.tree 
+
+detections.dat.500$agriculture <- detections.dat.500$herbaceous.agriculture + detections.dat.500$woody.ag.tree
+
+
+detections.dat.500$developed <- detections.dat.500$developed.high + detections.dat.500$developed.low + detections.dat.500$developed.medium
+
+detections.dat.500$developed.lowmed <- detections.dat.500$developed.low +detections.dat.500$developed.medium
+
+
+### Model
+# Subset by phase 
+ru.dat.500 <- detections.dat.500 %>%
+  filter(phase == "rut")
+
+wi.dat.500 <- detections.dat.500 %>%
+  filter(phase == "winter.forage")
+
+fa.dat.500 <- detections.dat.500 %>%
+  filter(phase == "fawning")
+
+su.dat.500 <- detections.dat.500 %>%
+  filter(phase == "summer.forage")
+
+#### Centering and scaling all of your dfs
+# Create new df that contains centered and scaled covars for each model
+ru.cs.500 <- as.data.frame(scale(ru.dat.500[c("coyote.day", "evi.500.wa" , "temperate.boreal.grassland" , "shrub.herb.wetland", "woody.ag.tree", "herbaceous.agriculture", "herbaceous.woody.developed", "developed.lowmed", "developed.high", "road", "water")], center = TRUE, scale = TRUE))
+
+wi.cs.500 <- as.data.frame(scale(wi.dat.500[c("coyote.day", "evi.500.wa" , "temperate.boreal.grassland" , "shrub.herb.wetland", "woody.ag.tree", "herbaceous.agriculture", "herbaceous.woody.developed", "developed.lowmed", "developed.high", "road", "water")], center = TRUE, scale = TRUE))
+
+fa.cs.500 <- as.data.frame(scale(fa.dat.500[c("coyote.day", "evi.500.wa" , "temperate.boreal.grassland" , "shrub.herb.wetland", "woody.ag.tree", "herbaceous.agriculture", "herbaceous.woody.developed", "developed.lowmed", "developed.high", "road", "water")], center = TRUE, scale = TRUE))
+
+su.cs.500 <- as.data.frame(scale(su.dat.500[c("coyote.day", "evi.500.wa" , "temperate.boreal.grassland" , "shrub.herb.wetland", "woody.ag.tree", "herbaceous.agriculture", "herbaceous.woody.developed", "developed.lowmed", "developed.high", "road", "water")], center = TRUE, scale = TRUE))
+
+# Bind the c&s df to needed data from original df
+ru.cs.df.500 <- cbind(ru.dat.500[c("Station", "Deer.det", "days.active", "time.code", "Reservation")], ru.cs.500)
+
+wi.cs.df.500 <- cbind(wi.dat.500[c("Station", "Deer.det", "days.active")], wi.cs.500)
+
+fa.cs.df.500 <- cbind(fa.dat.500[c("Station", "Deer.det", "days.active")], fa.cs.500)
+
+su.cs.df.500 <- cbind(su.dat.500[c("Station", "Deer.det", "days.active")], su.cs.500)
+
+
+# Get total number of detections for each period
+
+(sum(detections.dat.500$days.active)) #74449 total
+(sum(ru.dat.500$days.active)) #19260
+(sum(wi.dat.500$days.active)) #19490
+(sum(fa.dat.500$days.active)) #17160
+(sum(su.dat.500$days.active)) #18539
+
+(sum(detections.dat.500$Deer.det)) #45942 total
+(sum(ru.dat.500$Deer.det)) #16697
+(sum(wi.dat.500$Deer.det)) #8595
+(sum(fa.dat.500$Deer.det)) #9458
+(sum(su.dat.500$Deer.det)) #11192
+
+(sum(detections.dat.500$Coyote.det)) #4079
+(sum(ru.dat.500$Coyote.det)) #1229
+(sum(wi.dat.500$Coyote.det)) #1288
+(sum(fa.dat.500$Coyote.det)) #746
+(sum(su.dat.500$Coyote.det)) #816
+
+
+# Nbm
+nbm.ru.zif.500 <- glmmTMB(Deer.det ~coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + water + offset(log(days.active)) + (1|Station) + (1|time.code), ziformula = ~1 + time.code + Reservation,  data = ru.cs.df.500, family = nbinom2)
+
+nbm.wi.zif.500 <- glmmTMB(Deer.det ~ coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + water + offset(log(days.active)) + (1|Station), ziformula = ~1,  data = wi.cs.df.500, family = nbinom2)
+
+nbm.fa.zif.500 <- glmmTMB(Deer.det ~ coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + water + offset(log(days.active)) + (1|Station), ziformula = ~1,  data = fa.cs.df.500, family = nbinom2)
+
+nbm.su.zif.500 <- glmmTMB(Deer.det ~ coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + water + offset(log(days.active)) + (1|Station), ziformula = ~1, data = su.cs.df.500, family = nbinom2)
+
+
+# Check for collinearity, did this with temperate boreal forest and it was HORRENDOUS, without, everything checks out. Pulled roads from analysis because they had a high vif and were correlated with developed.lowmed in correlation plots (See bottom of code)
+check_collinearity(nbm.ru.zif.500)
+check_collinearity(nbm.wi.zif.500)
+check_collinearity(nbm.fa.zif.500)
+check_collinearity(nbm.su.zif.500)
+
+# Model summary
+summary(nbm.ru.zif.500)
+summary(nbm.wi.zif.500)
+summary(nbm.fa.zif.500)
+summary(nbm.su.zif.500)
+
+# Simulate the residuals
+simulationOutput.zif.ru.500 <- simulateResiduals(fittedModel = nbm.ru.zif.500, plot = F, n = 5000)
+simulationOutput.zif.wi.500 <- simulateResiduals(fittedModel = nbm.wi.zif.500, plot = F, n = 5000)
+simulationOutput.zif.fa.500 <- simulateResiduals(fittedModel = nbm.fa.zif.500, plot = F, n = 5000)
+simulationOutput.zif.su.500 <- simulateResiduals(fittedModel = nbm.su.zif.500, plot = F, n = 5000)
+
+# test residuals for dispersion
+testDispersion(simulationOutput.zif.ru.500)
+testDispersion(simulationOutput.zif.wi.500)
+testDispersion(simulationOutput.zif.fa.500)
+testDispersion(simulationOutput.zif.su.500)
+
+plot(simulationOutput.zif.ru.500)
+plot(simulationOutput.zif.wi.500)
+plot(simulationOutput.zif.fa.500)
+plot(simulationOutput.zif.su.500)
+```
+
+# Building plots
+```{r}
+# Make your summaries into objects
+summary.ru.500 <- summary(nbm.ru.zif.500)
+summary.wi.500 <- summary(nbm.wi.zif.500)
+summary.fa.500 <- summary(nbm.fa.zif.500)
+summary.su.500 <- summary(nbm.su.zif.500)
+
+# Pull the parts of the objects you'll need and make them dfs
+summary.ru.df.500 <- as.data.frame(summary.ru.500$coefficients$cond)
+summary.wi.df.500 <- as.data.frame(summary.wi.500$coefficients$cond)
+summary.fa.df.500 <- as.data.frame(summary.fa.500$coefficients$cond)
+summary.su.df.500 <- as.data.frame(summary.su.500$coefficients$cond) 
+
+#pull the zi
+#summary.ru.zi.df.500 <- as.data.frame(summary.ru.500$coefficients$zi)
+#summary.wi.zi.df.500 <- as.data.frame(summary.wi.500$coefficients$zi)
+#summary.fa.zi.df.500 <- as.data.frame(summary.fa.500$coefficients$zi)
+#summary.su.zi.df.500 <- as.data.frame(summary.su.500$coefficients$zi) 
+
+# renaming process, bind the dfs
+#summary.ru.df.500 <- rbind(summary.ru.df.500,summary.ru.zi.df.500)
+#summary.wi.df.500 <- rbind(summary.wi.df.500,summary.wi.zi.df.500)
+#summary.fa.df.500 <- rbind(summary.fa.df.500,summary.fa.zi.df.500)
+#summary.su.df.500 <- rbind(summary.su.df.500,summary.su.zi.df.500)
+
+#Make row names into a column
+summary.ru.df.500$Covariate <- rownames((summary.ru.df.500))
+summary.ru.df.500$Covariate <- as.factor(summary.ru.df.500$Covariate)
+
+summary.wi.df.500$Covariate <- rownames((summary.wi.df.500))
+summary.wi.df.500$Covariate <- as.factor(summary.wi.df.500$Covariate)
+
+summary.fa.df.500$Covariate <- rownames((summary.fa.df.500))
+summary.fa.df.500$Covariate <- as.factor(summary.fa.df.500$Covariate)
+
+summary.su.df.500$Covariate <- rownames((summary.su.df.500))
+summary.su.df.500$Covariate <- as.factor(summary.su.df.500$Covariate)
+
+# Nulling rownames
+rownames(summary.ru.df.500) <- NULL
+rownames(summary.wi.df.500) <- NULL
+rownames(summary.fa.df.500) <- NULL
+rownames(summary.su.df.500) <- NULL
+
+# Moving covariate to left
+summary.ru.df.500 <- summary.ru.df.500 %>%
+  relocate(Covariate, .before = Estimate)
+
+summary.wi.df.500 <- summary.wi.df.500 %>%
+  relocate(Covariate, .before = Estimate)
+
+summary.fa.df.500 <- summary.fa.df.500 %>%
+  relocate(Covariate, .before = Estimate)
+
+summary.su.df.500 <- summary.su.df.500 %>%
+  relocate(Covariate, .before = Estimate)
+
+
+# Rename all levels of a factor
+summary.ru.df.500 <- summary.ru.df.500 %>%
+  dplyr::mutate(Covariate = recode(Covariate, "(Intercept)" = "Cond.(intercept)",
+                                   coyote.day = "Coyote",
+                                   evi.500.wa = "EVI",
+                                   temperate.boreal.grassland = "Temperate boreal grassland",
+                                   shrub.herb.wetland = "Herb. shrub wetland",
+                                   woody.ag.tree = "Woody ag.",
+                                   herbaceous.agriculture = "Herb. ag.",
+                                   herbaceous.woody.developed = "Herb. woody developed",
+                                   developed.lowmed = "Developed low-med",
+                                   developed.high = "Developed high",
+                                   water = "Water"
+                )
+  )
+
+
+summary.wi.df.500 <- summary.wi.df.500 %>%
+  dplyr::mutate(Covariate = recode(Covariate, "(Intercept)" = "Cond.(intercept)",
+                                   coyote.day = "Coyote",
+                                   evi.500.wa = "EVI",
+                                   temperate.boreal.grassland = "Temperate boreal grassland",
+                                   shrub.herb.wetland = "Herb. shrub wetland",
+                                   woody.ag.tree = "Woody ag.",
+                                   herbaceous.agriculture = "Herb. ag.",
+                                   herbaceous.woody.developed = "Herb. woody developed",
+                                   developed.lowmed = "Developed low-med",
+                                   developed.high = "Developed high",
+                                   water = "Water"
+                )
+  )
+
+
+summary.fa.df.500 <- summary.fa.df.500 %>%
+  dplyr::mutate(Covariate = recode(Covariate, "(Intercept)" = "Cond.(intercept)",
+                                   coyote.day = "Coyote",
+                                   evi.500.wa = "EVI",
+                                   temperate.boreal.grassland = "Temperate boreal grassland",
+                                   shrub.herb.wetland = "Herb. shrub wetland",
+                                   woody.ag.tree = "Woody ag.",
+                                   herbaceous.agriculture = "Herb. ag.",
+                                   herbaceous.woody.developed = "Herb. woody developed",
+                                   developed.lowmed = "Developed low-med",
+                                   developed.high = "Developed high",
+                                   water = "Water"
+                )
+  )
+
+
+
+summary.su.df.500 <- summary.su.df.500 %>%
+  dplyr::mutate(Covariate = recode(Covariate, "(Intercept)" = "Cond.(intercept)",
+                                   coyote.day = "Coyote",
+                                   evi.500.wa = "EVI",
+                                   temperate.boreal.grassland = "Temperate boreal grassland",
+                                   shrub.herb.wetland = "Herb. shrub wetland",
+                                   woody.ag.tree = "Woody ag.",
+                                   herbaceous.agriculture = "Herb. ag.",
+                                   herbaceous.woody.developed = "Herb. woody developed",
+                                   developed.lowmed = "Developed low-med",
+                                   developed.high = "Developed high",
+                                   water = "Water"
+                )
+  )
+
+
+# Adding a column stating which season it's from
+summary.ru.df.500$Model <- "Pre-rut/rut"
+summary.wi.df.500$Model <- "Winter forage"
+summary.fa.df.500$Model <- "Fawning"
+summary.su.df.500$Model <- "Summer forage"
+
+# Reorder factor levels
+summary.ru.df.500$Covariate <- factor(summary.ru.df.500$Covariate, levels = c("Water", "Developed high", "Developed low-med", "Herb. woody developed", "Herb. ag.", "Woody ag.", "Herb. shrub wetland", "Temperate boreal grassland", "EVI", "Coyote", "Cond.(intercept)"))
+
+summary.wi.df.500$Covariate <- factor(summary.wi.df.500$Covariate, levels = c("Water", "Developed high", "Developed low-med", "Herb. woody developed", "Herb. ag.", "Woody ag.", "Herb. shrub wetland", "Temperate boreal grassland", "EVI", "Coyote", "Cond.(intercept)"))
+
+summary.fa.df.500$Covariate <- factor(summary.fa.df.500$Covariate, levels = c("Water", "Developed high", "Developed low-med", "Herb. woody developed", "Herb. ag.", "Woody ag.", "Herb. shrub wetland", "Temperate boreal grassland", "EVI", "Coyote", "Cond.(intercept)"))
+
+summary.su.df.500$Covariate <- factor(summary.su.df.500$Covariate, levels = c("Water", "Developed high", "Developed low-med", "Herb. woody developed", "Herb. ag.", "Woody ag.", "Herb. shrub wetland", "Temperate boreal grassland", "EVI", "Coyote", "Cond.(intercept)"))
+
+
+# Adding a significant/non-significant column.  #### CHANGE THIS TO FILL BASED ON IF/ELSE TERMS
+summary.ru.df.500$Significance <- ifelse(summary.ru.df.500$'Pr(>|z|)'< 0.05, "p < 0.05", "p > 0.05")
+summary.wi.df.500$Significance <- ifelse(summary.wi.df.500$'Pr(>|z|)'< 0.05, "p < 0.05", "p > 0.05")
+summary.fa.df.500$Significance <- ifelse(summary.fa.df.500$'Pr(>|z|)'< 0.05, "p < 0.05", "p > 0.05")
+summary.su.df.500$Significance <- ifelse(summary.su.df.500$'Pr(>|z|)'< 0.05, "p < 0.05", "p > 0.05")
+  
+# Adding a theme that I like
+theme <- theme_classic()+
+  theme(axis.title.x = element_text(size = 12), axis.title.y = element_blank(), text = element_text(size = 11), axis.text=element_text(size=9, color = "black"))
+
+# Now make effects sizes plots, and export the above as tables, and you are set!
+
+
+
+dev.new()
+ru.plot.500 <- ggplot(data = summary.ru.df.500, aes(x = Estimate, y = Covariate)) +
+  geom_vline(xintercept = 0, color = "#9E2024", size = 1.5, alpha = .85) + 
+  geom_errorbar(aes(xmax = Estimate+ `Std. Error`, xmin = Estimate-`Std. Error`, color = Significance), width = 0, size = 1) +
+  geom_point(aes(color = Significance), size = 2.75) + 
+  theme +
+  scale_color_manual(values = c("#6F8EBA", "black")) + 
+  annotate("text", x = .75, y = 11, label = "Pre-rut/rut", size = 5) +
+  theme(axis.title.x = element_blank(), legend.position = "none") +
+  xlim(-1,1)
+
+wi.plot.500 <- ggplot(data = summary.wi.df.500, aes(x = Estimate, y = Covariate)) +
+  geom_vline(xintercept = 0, color = "#9E2024", size = 1.5, alpha = .85) + 
+  geom_errorbar(aes(xmax = Estimate+ `Std. Error`, xmin = Estimate-`Std. Error`, color = Significance), width = 0, size = 1) +
+  geom_point(aes(color = Significance), size = 2.75) + 
+  theme +
+  scale_color_manual(values = c("#6F8EBA", "black")) +
+  annotate("text", x = .75, y = 11, label = "Winter forage", size = 5) +
+  theme(axis.title.x = element_blank(), legend.position = "none") +
+  xlim(-1.5, 1)
+
+
+fa.plot.500 <- ggplot(data = summary.fa.df.500, aes(x = Estimate, y = Covariate)) +
+  geom_vline(xintercept = 0, color = "#9E2024", size = 1.5, alpha = .85) + 
+  geom_errorbar(aes(xmax = Estimate+ `Std. Error`, xmin = Estimate-`Std. Error`, color = Significance), width = 0, size = 1) +
+  geom_point(aes(color = Significance), size = 2.75) + 
+  theme +
+  scale_color_manual(values = c("#6F8EBA", "black")) + 
+  annotate("text", x = .75, y = 11, label = "Fawning", size = 5) +
+  theme(legend.position = "none") +
+  xlim(-1.5,1)
+
+su.plot.500 <- ggplot(data = summary.su.df.500, aes(x = Estimate, y = Covariate)) +
+  geom_vline(xintercept = 0, color = "#9E2024", size = 1.5, alpha = .85) + 
+  geom_errorbar(aes(xmax = Estimate+ `Std. Error`, xmin = Estimate-`Std. Error`, color = Significance), width = 0, size = 1) +
+  geom_point(aes(color = Significance), size = 2.75) + 
+  theme +
+  scale_color_manual(values = c("#6F8EBA", "black")) + 
+  annotate("text", x = .75, y = 11, label = "Summer forage", size = 5) +
+  theme(axis.title.x = element_blank(), legend.title = element_blank(), legend.position = c(.90, .2), legend.key.size = unit(.2,"cm"), legend.background = element_rect(size = .3, color = "black"))+
+  xlim(-1.5,1)
+
+# Patchwork into single plot
+full.plot.500 <- su.plot.500+ru.plot.500+wi.plot.500+fa.plot.500 + plot_layout(nrow = 4)
+
+ggsave("C:/Users/mwuen/Documents/R/CH4_cmp_collab/effects.plot.500.v2.png", full.plot.500, height = 9, width = 7, unit = "in")
+
+#ggsave("C:/Users/mwuen/Documents/R/CH4_cmp_collab/dissertation.figure.png", su.plot.500, height = 6, width =10)
+
+# Write summaries into csvs for table
+write.csv(summary.ru.df.500, "C:/Users/mwuen/Documents/R/CH4_cmp_collab/rut.summary.500.table.csv", row.names = F)
+write.csv(summary.wi.df.500, "C:/Users/mwuen/Documents/R/CH4_cmp_collab/winter.forage.summary.table.500.csv", row.names = F)
+write.csv(summary.fa.df.500, "C:/Users/mwuen/Documents/R/CH4_cmp_collab/fawning.summary.table.500.csv", row.names = F)
+write.csv(summary.su.df.500, "C:/Users/mwuen/Documents/R/CH4_cmp_collab/summer.forage.summary.table.500.csv", row.names = F)
+
+
+# write it up, supplemental could be map of the reservations with camera traps and or a map with landfire
+
+#### Coloring informaion ####
+install.packages("NatParksPalettes")
+library(NatParksPalettes)
+# Color scale you'll want is triglav, 12 options, continuous
+tri <- natparks.pals(name = "Triglav", n = 12, type = "continuous")
+
+triglav.12 <- c("#386EC2", "#708EBA", "#A9AEB3", "#AA7373", "#9E2025", "#8A1907", "#714308", "#71610D", "#996B17", "#AB6E24", "#66533E", "#213958")
+
+library(ggplot2)
+show_colors <- function(colors) { 
+  ggplot(data.frame(id=seq_along(colors), color=colors)) + 
+    geom_tile(aes(id, 1, fill=color)) + 
+    scale_fill_identity()
+}
+
+show_colors(triglav.12)
+```
+
+# Correlation plots 
+
+``` {r}
+# Correlation plots
+library(corrplot)
+library(magick)
+#https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
+# For more sophisticated plots if you ever need them, convert corrplot object into ggplot for customization.
+  # https://dk81.github.io/dkmathstats_site/rvisual-corrplots.html
+
+
+# Pull roads
+ru.cs.500 <- ru.cs.500 %>%
+  select(-(road))
+wi.cs.500 <- wi.cs.500 %>%
+  select(-(road))
+fa.cs.500 <- fa.cs.500 %>%
+  select(-(road))
+su.cs.500 <- su.cs.500 %>%
+  select(-(road))
+
+# Rename to make it match in text figures
+ru.cs.500 <- ru.cs.500 %>%
+  rename("Coyote" = coyote.day, "EVI" = evi.500.wa, "T.B. grassland" = temperate.boreal.grassland, "H.S. wetland" = shrub.herb.wetland, "Woody ag" = woody.ag.tree, "Herb ag" = herbaceous.agriculture, "H.W. developed" = herbaceous.woody.developed, "Developed low-med" = developed.lowmed, "Developed high" = developed.high, "Water" = water)
+wi.cs.500 <- wi.cs.500 %>%
+  rename("Coyote" = coyote.day, "EVI" = evi.500.wa, "T.B. grassland" = temperate.boreal.grassland, "H.S. wetland" = shrub.herb.wetland, "Woody ag" = woody.ag.tree, "Herb ag" = herbaceous.agriculture, "H.W. developed" = herbaceous.woody.developed, "Developed low-med" = developed.lowmed, "Developed high" = developed.high, "Water" = water)
+fa.cs.500 <- fa.cs.500 %>%
+  rename("Coyote" = coyote.day, "EVI" = evi.500.wa, "T.B. grassland" = temperate.boreal.grassland, "H.S. wetland" = shrub.herb.wetland, "Woody ag" = woody.ag.tree, "Herb ag" = herbaceous.agriculture, "H.W. developed" = herbaceous.woody.developed, "Developed low-med" = developed.lowmed, "Developed high" = developed.high, "Water" = water)
+su.cs.500 <- su.cs.500 %>%
+  rename("Coyote" = coyote.day, "EVI" = evi.500.wa, "T.B. grassland" = temperate.boreal.grassland, "H.S. wetland" = shrub.herb.wetland, "Woody ag" = woody.ag.tree, "Herb ag" = herbaceous.agriculture, "H.W. developed" = herbaceous.woody.developed, "Developed low-med" = developed.lowmed, "Developed high" = developed.high, "Water" = water)
+
+# Get pearson correlations
+ru.cors = cor(ru.cs.500, method = "pearson")
+wi.cors = cor(wi.cs.500, method = "pearson")
+fa.cors = cor(fa.cs.500, method = "pearson")
+su.cors = cor(su.cs.500, method = "pearson")
+
+# Manually saving these files, annoying, but works.
+plot.new()
+png(filename = "prerut.corplot.png", width = 604, height = 554)
+ru.cor.plot <- corrplot(ru.cors, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+mtext("Pre-rut/Rut", at=6, line=.5, cex=2) 
+dev.off()
+
+plot.new()
+png(filename = "winter.corplot.png", width = 604, height = 554)
+wi.cor.plot <- corrplot(wi.cors, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+mtext("Winter forage", at=6, line=.5, cex=2) 
+dev.off()
+
+plot.new()
+png(filename = "fawning.corplot.png", width = 604, height = 554)
+fa.cor.plot <- corrplot(fa.cors, method = 'square', type = 'lower', diag = FALSE, tl.col = "black", tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+mtext("Fawning", at=6, line=.5, cex=2) 
+dev.off()
+
+
+plot.new()
+png(filename = "summer.corplot.png", width = 604, height = 554)
+su.cor.plot <- corrplot(su.cors, method = 'square', type = 'lower', diag = FALSE, tl.col = "black", tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+mtext("Summer forage", at=6, line=.5, cex=2) 
+dev.off()
+
+# Build new correlation plots with raw data including deer and all covariates (as raw data is fine). Whichever has the highest correlation with deer can be selected? 
+# Also could just check the correlations between collinear covariates and deer detections. Choose whichever is more correlated.
+# Also could just check AIC with swapped covariates and combinations: e.g., temp and boreal + roads swapped in, only temp and boreal swapped in, only roads swapped in, neither swapped in.
+### Model
+# Subset by phase 
+
+
+ru.dat.500.2 <- ru.dat.500 %>%
+  select(Deer.det, temperate.boreal.forest, herbaceous.woody.developed, road, developed.lowmed)
+
+wi.dat.500.2 <- wi.dat.500 %>%
+  select(Deer.det, temperate.boreal.forest, herbaceous.woody.developed, road, developed.lowmed)
+
+fa.dat.500.2 <- fa.dat.500 %>%
+  select(Deer.det, temperate.boreal.forest, herbaceous.woody.developed, road, developed.lowmed)
+
+su.dat.500.2 <- su.dat.500 %>%
+  select(Deer.det, temperate.boreal.forest, herbaceous.woody.developed, road, developed.lowmed)
+
+# Get pearson correlations
+ru.cors2 = cor(ru.dat.500.2, method = "pearson")
+wi.cors2 = cor(wi.dat.500.2, method = "pearson")
+fa.cors2 = cor(fa.dat.500.2, method = "pearson")
+su.cors2 = cor(su.dat.500.2, method = "pearson")
+
+# Manually saving these files, annoying, but works.
+
+corrplot(ru.cors2, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+
+corrplot(wi.cors2, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+
+corrplot(fa.cors2, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+
+corrplot(su.cors2, method = 'square', type = 'lower', diag = FALSE, tl.col = "black",  tl.cex = 1.2, cl.cex = 1.2, col = COL2("RdBu"))
+
+```

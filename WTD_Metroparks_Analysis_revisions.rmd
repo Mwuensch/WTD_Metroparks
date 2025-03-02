@@ -158,7 +158,7 @@ nbm.fa.zif.500 <- glmmTMB(Deer.det ~ coyote.day+ evi.500.wa + temperate.boreal.g
 
 nbm.su.zif.500 <- glmmTMB(Deer.det ~ coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + offset(log(days.active)) + (1|Station), ziformula = ~1, data = su.cs.df.500, family = nbinom2)
 
-# Check for collinearity, did this with temperate boreal forest and it was HORRENDOUS, without, everything checks out. Pulled roads from analysis because they had a high vif and were correlated with developed.lowmed in correlation plots (See bottom of code)
+# Check for collinearity. Temperate and boreal forests were highly collinear, without though, everything checks out. Pulled roads from analysis because they had a high vif and were correlated with developed.lowmed in correlation plots (See bottom of code)
 check_collinearity(nbm.ru.zif.500)
 check_collinearity(nbm.wi.zif.500)
 check_collinearity(nbm.fa.zif.500)

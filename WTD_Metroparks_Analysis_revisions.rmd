@@ -16,6 +16,7 @@ library(patchwork)
 library(performance)
 library(dplyr)
 library(tidyr)
+library(ncf)
 
 # Bringing in data that you'll need
 detections.dat <- read.csv("detection.data.csv")
@@ -29,7 +30,13 @@ detections.dat.500 <- detections.dat %>%
 detections.dat.500 <- detections.dat.500 %>%
   select(-days.available, -days.inactive, -X, -season)
 
+latlong.dat <- read.csv("cmp_all_camera_covariates.csv")
+names(latlong.dat)[names(latlong.dat) == 'camera_id'] <- 'Station'
+latlong.dat$Station <- as.factor(latlong.dat$Station)
+levels(latlong.dat$Station)
 
+detections.dat.500$Station <- as.factor(detections.dat.500$Station)
+levels(detections.dat.500$Station)
 
 # Bring in the landcover data, clean it up and merge it to detections df
 landco.500 <- read.csv("LF.500m.csv")
@@ -97,7 +104,8 @@ detections.dat.500$developed.lowmed <- detections.dat.500$developed.low +detecti
 ### Model
 # Subset by phase 
 ru.dat.500 <- detections.dat.500 %>%
-  filter(phase == "rut")
+  filter(phase == "rut") %>%
+  droplevels()
 
 wi.dat.500 <- detections.dat.500 %>%
   filter(phase == "winter.forage")
@@ -149,6 +157,38 @@ su.cs.df.500 <- cbind(su.dat.500[c("Station", "Deer.det", "days.active")], su.cs
 (sum(su.dat.500$Coyote.det)) #816
 
 
+# Adding lat/long data to each df
+ru.cs.df.500 <- ru.cs.df.500 %>%
+  right_join(latlong.dat[c("Station", "latitude", "longitude")], by = "Station")
+
+ru.cs.df.500 <- ru.cs.df.500 %>%
+  filter(!Station %in% c("BE1140", "BE1144")) %>% # filtering out levels that were inactive
+  droplevels()
+
+
+wi.cs.df.500 <- wi.cs.df.500 %>%
+  right_join(latlong.dat[c("Station", "latitude", "longitude")], by = "Station")
+
+wi.cs.df.500 <- wi.cs.df.500 %>%
+  filter(!Station %in% c("BE1140", "BE1144", "BK1088")) %>% # filtering out levels that were inactive
+  droplevels()
+
+fa.cs.df.500 <- fa.cs.df.500 %>%
+  right_join(latlong.dat[c("Station", "latitude", "longitude")], by = "Station")
+
+fa.cs.df.500 <- fa.cs.df.500 %>%
+  filter(!Station %in% c("BE1140", "BE1144")) %>% # filtering out levels that were inactive
+  droplevels()
+
+
+su.cs.df.500 <- su.cs.df.500 %>%
+  right_join(latlong.dat[c("Station", "latitude", "longitude")], by = "Station")
+
+su.cs.df.500 <- su.cs.df.500 %>%
+  filter(!Station %in% c("BE1140", "BE1144")) %>% # filtering out levels that were inactive
+  droplevels()
+
+
 # Nbm. Full models containing temperate boreal forest and roads exhibited colinearity and were removed. Water was removed due to it being non-suitable habitat for white-tailed deer
 nbm.ru.zif.500 <- glmmTMB(Deer.det ~coyote.day+ evi.500.wa + temperate.boreal.grassland+ shrub.herb.wetland+ woody.ag.tree+ herbaceous.agriculture+ herbaceous.woody.developed+ developed.lowmed + developed.high + offset(log(days.active)) + (1|Station), ziformula = ~1, data = ru.cs.df.500, family = nbinom2)
 
@@ -176,15 +216,79 @@ simulationOutput.zif.wi.500 <- simulateResiduals(fittedModel = nbm.wi.zif.500, p
 simulationOutput.zif.fa.500 <- simulateResiduals(fittedModel = nbm.fa.zif.500, plot = F, n = 5000)
 simulationOutput.zif.su.500 <- simulateResiduals(fittedModel = nbm.su.zif.500, plot = F, n = 5000)
 
-# inspect your residuals for issues in fit, they check out pretty well
-plot(simulationOutput.zif.ru.500)
-plot(simulationOutput.zif.wi.500)
-plot(simulationOutput.zif.fa.500)
-plot(simulationOutput.zif.su.500)
+# inspect your residuals for issues in fit. First check overall plots, then fit residuals against covariates per the recommendation of Florian Hartig
 
-testDispersion(simulationOutput.zif.ru.500)
+# Covars: coyote.day, evi.500.wa, temperate.boreal.grassland, shrub.herb.wetland, woody.ag.tree, herbaceous.agriculture, herbaceous.woody.developed, developed.lowmed, developed.high, Station
+plot(simulationOutput.zif.ru.500)
+plotResiduals(simulationOutput.zif.ru.500, ru.cs.df.500$coyote.day)
+
+plot(simulationOutput.zif.wi.500)
+plotResiduals(simulationOutput.zif.wi.500, wi.cs.df.500$coyote.day)
+
+plot(simulationOutput.zif.fa.500)
+plotResiduals(simulationOutput.zif.fa.500, fa.cs.df.500$coyote.day)
+
+plot(simulationOutput.zif.su.500)
+plotResiduals(simulationOutput.zif.su.500, su.cs.df.500$coyote.day)
+
+# Spline correlograms for supplement
+ru.Correlog.Glm <- spline.correlog(
+  x = ru.cs.df.500$longitude,
+  y = ru.cs.df.500$latitude,
+  z = residuals(nbm.ru.zif.500, type = "pearson"),
+  latlon = T)
+
+wi.Correlog.Glm <- spline.correlog(
+  x = wi.cs.df.500$longitude,
+  y = wi.cs.df.500$latitude,
+  z = residuals(nbm.wi.zif.500, type = "pearson"),
+  latlon = T)
+
+fa.Correlog.Glm <- spline.correlog(
+  x = fa.cs.df.500$longitude,
+  y = fa.cs.df.500$latitude,
+  z = residuals(nbm.fa.zif.500, type = "pearson"),
+  latlon = T)
+
+su.Correlog.Glm <- spline.correlog(
+  x = su.cs.df.500$longitude,
+  y = su.cs.df.500$latitude,
+  z = residuals(nbm.su.zif.500, type = "pearson"),
+  latlon = T)
+
+# Making the plots
+plot(ru.Correlog.Glm)
+plot(wi.Correlog.Glm)
+plot(fa.Correlog.Glm)
+plot(su.Correlog.Glm)
+
+png("spline_correlograms.png", width = 4200, height = 4200, res = 300)
+
+# 2 rows x 2 columns layout
+par(mfrow = c(2, 2), oma = c(4, 4, 2, 1), mar = c(4, 4, 3, 2))  # Adjust margins
+
+# Plot each season with custom title
+plot(ru.Correlog.Glm, main = "Pre-rut/rut", xlab = "Distance (km)", ylab = "Correlation", 
+     cex.axis = 1.4,   # Axis ticks larger
+     cex.lab = 1.6,    # Axis labels larger
+     cex.main = 1.8)    # Title larger
+plot(wi.Correlog.Glm, main = "Winter forage", xlab = "Distance (km)", ylab = "",
+     cex.axis = 1.4,   # Axis ticks larger
+     cex.lab = 1.6,    # Axis labels larger
+     cex.main = 1.8)   # Title larger
+plot(fa.Correlog.Glm, main = "Fawning", xlab = "Distance (km)", ylab = "Correlation",
+     cex.axis = 1.4,   # Axis ticks larger
+     cex.lab = 1.6,    # Axis labels larger
+     cex.main = 1.8)   # Title larger
+plot(su.Correlog.Glm, main = "Summer forage", xlab = "Distance (km)", ylab = "",
+     cex.axis = 1.4,   # Axis ticks larger
+     cex.lab = 1.6,    # Axis labels larger
+     cex.main = 1.8)   # Title larger
+
+dev.off()
+
 ```
-# In the initial model, we included 2 covariates that had high vifs and were colinear: Temperate and boreal forests and roads. Temperate and boreal forests was colinear with herbaceous and woody developed, roads was with developed.lowmed. Run correlations to identify the relationship between these covariates and white-tailed deer detection rates for each season to decide which covariates to retain
+# In the initial model, we included 2 covariates that had high vifs and were colinear: Temperate and boreal forests and roads. Temperate and boreal forests was colinear with herbaceous and woody developed, roads was with developed.lowmed. Run correlations to identify the relationship between these covariates and white-tailed deer detection rates for each season to decide which covariates to retain. Ultimately, this was checked as an alternative, but the previous chunk contains the models you will use.
 ```{r}
 # Set new dfs for correlations
 ru.dat.500.2 <- ru.dat.500 %>%
@@ -443,7 +547,7 @@ su.plot.500 <- ggplot(data = summary.su.df.500, aes(x = Estimate, y = Covariate)
 # Patchwork into single plot
 full.plot.500 <- su.plot.500+ru.plot.500+wi.plot.500+fa.plot.500 + plot_layout(nrow = 4)
 
-ggsave("effects.plot.500.v3.png", full.plot.500, height = 9, width = 7, unit = "in", dpi = 500)
+ggsave("effects.plot.500.v3.jpg", full.plot.500, height = 9, width = 7, unit = "in", dpi = 500)
 
 #ggsave("C:/Users/mwuen/Documents/R/CH4_cmp_collab/dissertation.figure.png", su.plot.500, height = 6, width =10)
 
